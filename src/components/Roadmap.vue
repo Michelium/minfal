@@ -103,13 +103,9 @@ export default {
     border-color: transparent transparent transparent $light;
 }
 
-    .hexagon-row {
-        width: 85vw;
-        margin: 0 auto;
-    }
-
-@media (min-width: 1200px) {
-
+.hexagon-row {
+    width: 85vw;
+    margin: 0 auto;
 }
 
 .hexagon {
