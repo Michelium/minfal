@@ -10,7 +10,7 @@
                 </div>
             </div>
             <div class="col-12 col-md-5 col-lg-4">
-                <h3 class="text-primary">Innovatie is onze kracht</h3>
+                <h3>Innovatie is onze kracht</h3>
                 <p class="mt-3">Wij verzorgen het totale plaatje, van idee tot realisatie. Wij helpen u in het reduceren van restafval door het ontwikkelen van herbruikbare verpakkingen. Wij zorgen dat dure wegwerpverpakkingen tot de verleden tijd behoren. Zo
                     heeft uw bedrijf geen last van het toekomstige verbod op wegwerpverpakkingen en wordt uw duurzaamheidsimago verhoogd.</p>
                 <a class="btn btn-outline-primary mt-md-3" href="#contact">ONZE WERKWIJZE</a>

@@ -16,8 +16,14 @@ h2 {
 }
 
 h3 {
-  font-size: 36px;
+  font-size: 33px;
   font-weight: bolder;
+  color: $primary;
+}
+
+h4 {
+  font-size: 22px;
+  color: $white;
 }
 
 p {
