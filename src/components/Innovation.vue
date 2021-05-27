@@ -1,7 +1,7 @@
 <template>
     <section>
         <div class="row mx-0">
-            <div class="col-12 col-md-5 offset-md-1 col-lg-4 offset-lg-2">
+            <div class="col-12 col-md-5 offset-md-1 col-lg-10 offset-lg-1 col-xl-5 offset-xl-2 col-xxl-4">
                 <div class="row">
                     <div class="col-12 col-md-6 innovation" id="innovation-1"></div>
                     <div class="col-12 col-md-6 innovation" id="innovation-2"></div>
@@ -9,7 +9,7 @@
                     <div class="col-12 col-md-6 innovation" id="innovation-4"></div>
                 </div>
             </div>
-            <div class="col-12 col-md-5 col-lg-4">
+            <div class="col-12 col-md-5 col-lg-10 offset-lg-1 mt-lg-5 offset-xl-0 col-xl-4 col-xxl-4">
                 <h3>Innovatie is onze kracht</h3>
                 <p class="mt-3">Wij verzorgen het totale plaatje, van idee tot realisatie. Wij helpen u in het reduceren van restafval door het ontwikkelen van herbruikbare verpakkingen. Wij zorgen dat dure wegwerpverpakkingen tot de verleden tijd behoren. Zo
                     heeft uw bedrijf geen last van het toekomstige verbod op wegwerpverpakkingen en wordt uw duurzaamheidsimago verhoogd.</p>

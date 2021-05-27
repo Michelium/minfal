@@ -114,6 +114,7 @@ export default {
     min-height: 260px;
     width: 20vw;
     height: calc(20vw * 0.86);
+    margin-bottom: 30px;
 
     background: $primary;
 

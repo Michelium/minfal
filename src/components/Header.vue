@@ -3,7 +3,7 @@
         <nav class="navbar navbar-expand-lg navbar-light custom_navbar custom-navbar-light mx-0 px-0 pt-2 pb-0 mb-2 mb-sm-5 navbar-fixed-top" id="custom-navbar">
             <div class="container-fluid">
                 <div class="row mx-0 pt-3 pt-lg-0">
-                    <div class="col-12 col-md-5 offset-md-1 col-lg-4 offset-lg-2">
+                    <div class="col-12 col-md-5 offset-md-1 col-lg-3 offset-lg-1 col-xl-4 offset-xl-2">
                         <button class="navbar-toggler float-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
@@ -11,7 +11,7 @@
                             <img class="mt-2" src="@/assets/images/logo.jpg" alt="MINFAL">
                         </a>
                     </div>
-                    <div class="col-12 col-md-5 collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <div class="col-12 col-md-5 col-xl-5 collapse navbar-collapse" id="navbarTogglerDemo01">
                         <ul class="navbar-nav mx-auto mx-lg-0 float-none float-lg-end">
                             <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
                             <li class="nav-item"><a href="#home" class="nav-link">MINFAL</a></li>

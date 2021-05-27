@@ -1,7 +1,7 @@
 <template>
     <section>
         <div class="row mx-0">
-            <div class="col-12 col-md-5 offset-md-1 offset-lg-2 text-section">
+            <div class="col-12 col-md-5 offset-md-1 offset-lg-1 col-xl-5 offset-xl-2 text-section">
                 <h1 class="text-primary">MINFAL</h1>
                 <h2 class="text-white">Omzetverhoging met <br>Afvalreductie</h2>
                 <a class="btn btn-outline-primary mt-md-3" href="#contact">ONTDEK</a>

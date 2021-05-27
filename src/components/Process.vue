@@ -1,10 +1,10 @@
 <template>
     <section>
         <div class="row mx-auto">
-            <div class="col-12 col-xl-5 offset-xl-2">
+            <div class="col-12 col-xl-4 offset-xl-2">
                 <img class="img-fluid" src="@/assets/images/process.jpg" alt="Werkwijze">
             </div>
-            <div class="col-12 col-xl-3 right">
+            <div class="col-12 col-lg-10 offset-lg-1 offset-xl-0 col-xl-4 right">
                 <h3>Oneindig veel opties.</h3>
                 <h4 class="mb-4">Minfal biedt keuze.</h4>
                 <p class="mb-4">
