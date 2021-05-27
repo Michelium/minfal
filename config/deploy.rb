@@ -6,6 +6,8 @@ set :repo_url, "git@github.com:Michelium/minfal.git"
 
 set :tmp_dir, "/home/u98337p92543/tmp"
 
+set :deploy_subdir, "project/dist"
+
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
