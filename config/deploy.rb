@@ -6,7 +6,7 @@ set :repo_url, "git@github.com:Michelium/minfal.git"
 
 set :tmp_dir, "/home/u98337p92543/tmp"
 
-set :deploy_subdir, "project/dist"
+set :repo_tree, 'dist'
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
@@ -46,8 +46,8 @@ namespace :deploy do
   desc 'Restart application'
   task :restart do
     on roles(:app), in: :sequence, wait: 5 do
-        execute "cd #{release_path} && npm install"
-        execute "cd #{release_path} && npm run build"
+#         execute "cd #{release_path} && npm install"
+#         execute "cd #{release_path} && npm run build"
     end
   end
 
