@@ -36,16 +36,19 @@
 </template>
 
 <script>
+const querystring = require("querystring");
 import axios from 'axios'
 
 export default {
     name: "Contact",
     data() {
         return {
-            name: '',
-            email: '',
-            phone: '',
-            message: '',
+            form: {
+                name: '',
+                email: '',
+                phone: '',
+                message: '',
+            },
             errors: {},
             success: false,
             loaded: true,
@@ -57,12 +60,7 @@ export default {
                 this.loaded = false;
                 this.success = false;
                 axios
-                    .post('/mail.php', {
-                        name: this.name,
-                        email: this.email,
-                        phone: this.phone,
-                        message: this.message,
-                    })
+                    .post('/mail.php', querystring.stringify(this.form))
                     .then(response => {
                         this.loaded = true;
                         this.success = true;
