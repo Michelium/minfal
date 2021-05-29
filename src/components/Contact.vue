@@ -5,13 +5,13 @@
                 <h3>Neem contact op</h3>
                 <form class="mt-4" action="" @submit.prevent="sendEmail">
                     <div v-if="success" class="alert alert-success alert-dismissible fade show" role="alert">
-                        <p>Uw bericht is verstuurd!</p>
+                        <p class="text-dark">Uw bericht is verstuurd! We komen zo spoedig mogelijk bij u terug!</p>
                     </div>
                     <div class="form-group mb-3">
                         <input v-model="name" class="form-control bg-light py-2" type="text" name="name" id="name" placeholder="Bedrijfsnaam" autocomplete="off" required>
                     </div>
                     <div class="form-group mb-3">
-                        <input v-model="email" class="form-control bg-light py-2" type="text" name="email" id="email" placeholder="E-mail" autocomplete="off" required>
+                        <input v-model="email" class="form-control bg-light py-2" type="email" name="email" id="email" placeholder="E-mail" autocomplete="off" required>
                     </div>
                     <div class="form-group mb-3">
                         <input v-model="phone" class="form-control bg-light py-2" type="text" name="phone" id="phone" placeholder="Telefoonnummer" autocomplete="off">
@@ -36,8 +36,7 @@
 </template>
 
 <script>
-const querystring = require("querystring");
-import axios from 'axios'
+import emailjs from 'emailjs-com';
 
 export default {
     name: "Contact",
@@ -59,13 +58,22 @@ export default {
             if (this.loaded) {
                 this.loaded = false;
                 this.success = false;
-                axios
-                    .post('/mail.php', querystring.stringify(this.form))
-                    .then(response => {
+                emailjs.sendForm('service_jgsniw7', 'template_bjcrtfm', e.target, 'user_UDbcG4RfnxXHwOYkfG6t6')
+                    .then((result) => {
+                        console.log('SUCCESS!', result.status, result.text);
+                        this.name = '';
+                        this.email = '';
+                        this.phone = '';
+                        this.message = '';
                         this.loaded = true;
                         this.success = true;
-                    })
+                    }, (error) => {
+                        this.loaded = true;
+                        this.success = false;
+                        console.log('FAILED...', error);
+                    });
             }
+
         }
     }
 }
