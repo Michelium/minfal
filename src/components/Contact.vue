@@ -3,20 +3,23 @@
         <div class="row mx-auto">
             <div class="col-12 col-lg-10 offset-lg-1 col-xl-3 offset-xl-2">
                 <h3>Neem contact op</h3>
-                <form class="mt-4" action="">
-                    <div class="form-group mb-3">
-                        <input class="form-control bg-light py-2" type="text" name="company_name" id="company_name" placeholder="Bedrijfsnaam" autocomplete="off" required>
+                <form class="mt-4" action="" @submit.prevent="sendEmail">
+                    <div v-if="success" class="alert alert-success alert-dismissible fade show" role="alert">
+                        <p>Uw bericht is verstuurd!</p>
                     </div>
                     <div class="form-group mb-3">
-                        <input class="form-control bg-light py-2" type="text" name="email" id="email" placeholder="E-mail" autocomplete="off" required>
+                        <input v-model="name" class="form-control bg-light py-2" type="text" name="company_name" id="company_name" placeholder="Bedrijfsnaam" autocomplete="off" required>
                     </div>
                     <div class="form-group mb-3">
-                        <input class="form-control bg-light py-2" type="text" name="phone" id="phone" placeholder="Telefoonnummer" autocomplete="off">
+                        <input v-model="email" class="form-control bg-light py-2" type="text" name="email" id="email" placeholder="E-mail" autocomplete="off" required>
                     </div>
                     <div class="form-group mb-3">
-                        <textarea class="form-control bg-light py-2" name="message" id="message" placeholder="Bericht" autocomplete="off" required rows="7"></textarea>
+                        <input v-model="phone" class="form-control bg-light py-2" type="text" name="phone" id="phone" placeholder="Telefoonnummer" autocomplete="off">
                     </div>
-                    <button type="submit" class="btn btn-outline-primary">VERSTUUR</button>
+                    <div class="form-group mb-3">
+                        <textarea v-model="message" class="form-control bg-light py-2" name="message" id="message" placeholder="Bericht" autocomplete="off" required rows="7"></textarea>
+                    </div>
+                    <button :disabled="!loaded"  type="submit" class="btn btn-outline-primary">VERSTUUR</button>
                 </form>
             </div>
             <div class="col-12 col-md-5 col-lg-10 offset-lg-1 col-xl-4 mt-5 mt-lg-0">
@@ -33,8 +36,34 @@
 </template>
 
 <script>
+import axios from 'axios'
+
 export default {
-    name: "Contact"
+    name: "Contact",
+    data() {
+        return {
+            name: '',
+            email: '',
+            phone: '',
+            message: '',
+            errors: {},
+            success: false,
+            loaded: true,
+        }
+    },
+    methods: {
+        sendEmail(e) {
+            if (this.loaded) {
+                this.loaded = false;
+                this.success = false;
+                axios
+                    .post('/mail.php')
+                    .then(response => {
+                        console.log(response)
+                    })
+            }
+        }
+    }
 }
 </script>
 
@@ -45,5 +74,9 @@ section {
 
 h2 {
     font-size: 62px;
+}
+
+input, textarea {
+    color: white!important;
 }
 </style>
