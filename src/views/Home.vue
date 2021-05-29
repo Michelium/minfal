@@ -6,6 +6,7 @@
         <Roadmap/>
         <Process/>
         <Projects/>
+        <Contact/>
     </div>
 </template>
 
@@ -16,10 +17,12 @@ import Innovation from '../components/Innovation.vue'
 import Roadmap from "../components/Roadmap";
 import Process from "../components/Process";
 import Projects from "../components/Projects";
+import Contact from "../components/Contact";
 
 export default {
     name: 'Home',
     components: {
+        Contact,
         Projects,
         Process,
         Roadmap,
