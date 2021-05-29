@@ -8,7 +8,7 @@
                         <p>Uw bericht is verstuurd!</p>
                     </div>
                     <div class="form-group mb-3">
-                        <input v-model="name" class="form-control bg-light py-2" type="text" name="company_name" id="company_name" placeholder="Bedrijfsnaam" autocomplete="off" required>
+                        <input v-model="name" class="form-control bg-light py-2" type="text" name="name" id="name" placeholder="Bedrijfsnaam" autocomplete="off" required>
                     </div>
                     <div class="form-group mb-3">
                         <input v-model="email" class="form-control bg-light py-2" type="text" name="email" id="email" placeholder="E-mail" autocomplete="off" required>
@@ -57,9 +57,15 @@ export default {
                 this.loaded = false;
                 this.success = false;
                 axios
-                    .post('/mail.php')
+                    .post('/mail.php', {
+                        name: this.name,
+                        email: this.email,
+                        phone: this.phone,
+                        message: this.message,
+                    })
                     .then(response => {
-                        console.log(response)
+                        this.loaded = true;
+                        this.success = true;
                     })
             }
         }
