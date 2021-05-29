@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="minfal">
     <router-view/>
   </div>
 </template>
