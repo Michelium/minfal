@@ -1,5 +1,5 @@
 <template>
-    <div class="container-fluid home">
+    <div class="container-fluid home px-0">
         <Header/>
         <Hero/>
         <Innovation/>
@@ -7,6 +7,7 @@
         <Process/>
         <Projects/>
         <Contact/>
+        <Footer/>
     </div>
 </template>
 
@@ -18,10 +19,12 @@ import Roadmap from "../components/Roadmap";
 import Process from "../components/Process";
 import Projects from "../components/Projects";
 import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 
 export default {
     name: 'Home',
     components: {
+        Footer,
         Contact,
         Projects,
         Process,

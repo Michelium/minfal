@@ -46,8 +46,4 @@ section {
 h2 {
     font-size: 62px;
 }
-
-input {
-    background-color: l;
-}
 </style>
