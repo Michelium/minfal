@@ -1,7 +1,7 @@
 <template>
-    <section>
+    <section id="roadmap">
         <div class="row mx-0">
-            <div class="col-10 offset-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3 col-xl-4 offset-xl-4 col-xxl-2 offset-xxl-5 triangle">
+            <div class="col-6 offset-3 col-md-8 offset-md-2 col-lg-6 offset-lg-3 col-xl-4 offset-xl-4 col-xxl-2 offset-xxl-5 triangle">
                 <div class="title-box bg-light text-center">
                     <h3>Roadmap</h3>
                     <h4>De toekomst met MINFAL</h4>
@@ -12,7 +12,7 @@
             <div class="col-12">
                 <div class="hexagon-row">
                     <div class="row">
-                        <div class="col-auto">
+                        <div class="col-auto mx-auto">
                             <div class="hexagon">
                                 <div class="inside">
                                     <h4>Q1 2021</h4>
@@ -22,7 +22,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-auto">
+                        <div class="col-auto mx-auto">
                             <div class="hexagon">
                                 <div class="inside">
                                     <h4>Q2 2021</h4>
@@ -32,7 +32,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-auto">
+                        <div class="col-auto mx-auto">
                             <div class="hexagon">
                                 <div class="inside">
                                     <h4>Q3 2021</h4>
@@ -42,7 +42,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-auto">
+                        <div class="col-auto mx-auto">
                             <div class="hexagon">
                                 <div class="inside">
                                     <h4>Q4 2021</h4>
@@ -67,6 +67,9 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.triangle {
+    max-width: 100vw;
+}
 .title-box {
     position: relative;
     padding: 22px 0;
@@ -103,6 +106,17 @@ export default {
     border-color: transparent transparent transparent $light;
 }
 
+@media (max-width: 433px) {
+    .title-box:before {
+        border-width: 0 0 120px 80px;
+        left: -80px;
+    }
+    .title-box:after {
+        border-width: 120px 0 0 80px;
+        right: -80px;
+    }
+}
+
 .hexagon-row {
     width: 85vw;
     margin: 0 auto;
@@ -136,7 +150,7 @@ export default {
 .hexagon .inside h4 {
     position: relative;
     width: 70%;
-    top: 18%;
+    top: 9%;
     font-size: 2rem;
     text-align: center;
     margin: 0 auto;
@@ -144,7 +158,7 @@ export default {
 
 .hexagon .inside hr {
     position: relative;
-    top: 20%;
+    top: 13%;
     width: 12rem;
     text-align: center;
     margin: 0 auto;
@@ -159,15 +173,25 @@ export default {
     height: auto;
     margin: 0 auto;
     text-align: center;
-    top: 26%;
+    top: 17%;
 }
 
 .hexagon .inside p {
     position: relative;
     text-align: center;
     margin: 0 auto;
-    top: 29%;
-    font-size: 0.7vw;
+    top: 19%;
+}
+
+@media (min-width: 1648px) and (max-width: 2016px) {
+    .hexagon .inside p {
+        font-size: 13px;
+    }
+}
+@media (min-width: 0px) and (max-width: 1647px) {
+    .hexagon .inside p {
+        font-size: 11px;
+    }
 }
 
 </style>

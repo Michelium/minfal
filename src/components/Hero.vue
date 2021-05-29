@@ -1,13 +1,10 @@
 <template>
-    <section>
+    <section id="hero">
         <div class="row mx-0">
             <div class="col-12 col-md-5 offset-md-1 offset-lg-1 col-xl-5 offset-xl-2 text-section">
                 <h1 class="text-primary">MINFAL</h1>
                 <h2 class="text-white">Omzetverhoging met <br>Afvalreductie</h2>
-                <a class="btn btn-outline-primary mt-md-3" href="#contact">ONTDEK</a>
-            </div>
-            <div class="col-md-5">
-                <!--                <img src="@/assets/images/hero.png" alt="Hero truck">-->
+                <a class="btn btn-outline-primary mt-md-3" @click="scrollTo('roadmap')">ONTDEK</a>
             </div>
         </div>
     </section>
@@ -15,7 +12,7 @@
 
 <style scoped lang="scss">
 section {
-    background-image: url("~@/assets/images/hero.jpg");
+    background-image: url("~@/assets/images/hero_1920x.jpg");
     background-size: cover;
     background-position: bottom right;
     background-repeat: no-repeat;
@@ -72,6 +69,15 @@ img {
 
 <script>
 export default {
-    name: 'Hero'
+    name: 'Hero',
+    methods: {
+        scrollTo(elementId) {
+            var element = document.getElementById(elementId);
+            element.scrollIntoView({
+                block: 'start',
+                behavior: 'smooth',
+            });
+        },
+    },
 }
 </script>

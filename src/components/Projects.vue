@@ -1,5 +1,5 @@
 <template>
-    <section>
+    <section id="projects">
         <div class="row mx-auto bg-light py-5">
             <div class="col-12 col-lg-10 offset-lg-1 col-xl-4 offset-xl-2">
                 <h2 class="text-white mb-4 fw-bolder">Huidige projecten</h2>
@@ -29,8 +29,20 @@ section {
     margin-bottom: 160px;
 }
 
+@media (max-width: 1200px) {
+    section {
+        margin-bottom: 80px;
+    }
+}
+
 h2 {
     font-size: 62px;
+}
+
+@media (max-width: 578px) {
+    h2 {
+        font-size: 33px;
+    }
 }
 
 img {

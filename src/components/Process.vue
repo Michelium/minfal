@@ -1,8 +1,8 @@
 <template>
-    <section>
+    <section id="process">
         <div class="row mx-auto">
-            <div class="col-12 col-xl-4 offset-xl-2">
-                <img class="img-fluid" src="@/assets/images/process.jpg" alt="Werkwijze">
+            <div class="col-12 col-lg-10 offset-lg-1 col-xl-4 offset-xl-2">
+                <img class=" text-center mx-auto mx-xl-0" src="@/assets/images/process.jpg" alt="Werkwijze">
             </div>
             <div class="col-12 col-lg-10 offset-lg-1 offset-xl-0 col-xl-4 right">
                 <h3>Oneindig veel opties.</h3>
@@ -12,7 +12,7 @@
                     Bij een perfecte oplossing hoort een perfect product. Al onze producten worden in Nederland gefrabriceerd, en zijn van hoge Nederlandse Kwaliteit. Bij een product hoort een strategie, die ervoor zorgt dat het product het beste in jouw bedrijf past.<br><br>
                     Na de analyse en productontwikkeling is het nu tijd voor de daadwerkelijke realisatie. Minfal beschikt over eigen matrijzen, waardoor u gegarandeerd unieke Minfal-producten ontvangt.
                 </p>
-                <button class="btn btn-outline-primary">CONTACT</button>
+                <button class="btn btn-outline-primary" @click="scrollTo('contact')">CONTACT</button>
             </div>
         </div>
     </section>
@@ -20,7 +20,16 @@
 
 <script>
 export default {
-    name: "Process"
+    name: "Process",
+    methods: {
+        scrollTo(elementId) {
+            var element = document.getElementById(elementId);
+            element.scrollIntoView({
+                block: 'start',
+                behavior: 'smooth',
+            });
+        },
+    },
 }
 </script>
 
@@ -36,5 +45,11 @@ export default {
     img {
         width: 90%;
         height: auto;
+    }
+
+    @media (max-width: 1200px) {
+        img {
+            width: 100%;
+        }
     }
 </style>

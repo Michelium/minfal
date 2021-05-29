@@ -1,5 +1,5 @@
 <template>
-    <section>
+    <section id="contact">
         <div class="row mx-auto">
             <div class="col-12 col-lg-10 offset-lg-1 col-xl-3 offset-xl-2">
                 <h3>Neem contact op</h3>
@@ -22,7 +22,7 @@
                     <button :disabled="!loaded"  type="submit" class="btn btn-outline-primary">VERSTUUR</button>
                 </form>
             </div>
-            <div class="col-12 col-md-5 col-lg-10 offset-lg-1 col-xl-4 mt-5 mt-lg-0">
+            <div class="col-12 col-lg-10 offset-lg-1 col-xl-4 mt-5 mt-lg-0">
                 <h2 class="text-white mb-4 fw-bolder">Missie en visie</h2>
                 <h3 class="fw-bolder">De missie</h3>
                 <p class="mb-5">Minfal heeft één groot doel: het reduceren van afval om zo de natuur en het milieu te beschermen. Minfal wil met het ontwerpen en aanbieden van luxe herbruikbare verpakkingen het gebruik van wegwerpverpakkingen
@@ -86,6 +86,12 @@ section {
 
 h2 {
     font-size: 62px;
+}
+
+@media (max-width: 578px) {
+    h2 {
+        font-size: 33px;
+    }
 }
 
 input, textarea {

@@ -3,7 +3,7 @@
         <div class="row mx-auto bg-light py-5">
             <div class="col-12 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
                 <div class="row">
-                    <div class="col-12 col-lg-4">
+                    <div class="col-12 col-lg-4 mb-5 mb-lg-0">
                         <img class="mt-2 w-50" src="@/assets/images/logo.jpg" alt="MINFAL">
                         <div class="row">
                             <div class="col-6">
@@ -28,14 +28,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-4">
+                    <div class="col-12 col-lg-4 mb-5 mb-lg-0">
                         <h4 class="text-primary fw-bolder">Duurzaamheid</h4>
                         <p>
                             MINFAL draagt met het bedrijf en haar producten bij aan het behalen van de werelddoelen voor duurzame ontwikkeling. <br>
                             Het gaat om de zogeheten 'Sustainable Development Goals' van de Verenigde Naties.
                         </p>
                     </div>
-                    <div class="col-12 col-lg-4">
+                    <div class="col-12 col-lg-4 mb-5 mb-lg-0">
                         <a href="https://www.un.org/sustainabledevelopment/sustainable-development-goals/" target="_blank">
                             <img class="mt-2 w-100" src="@/assets/images/goals.png" alt="Sustainable Development Goals">
                         </a>

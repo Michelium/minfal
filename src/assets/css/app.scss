@@ -4,6 +4,9 @@
 body {
   background-color: $black;
   font-family: 'Open Sans', sans-serif;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+  position: relative;
 }
 
 h1 {
