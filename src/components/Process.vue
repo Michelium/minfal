@@ -5,11 +5,11 @@
                 <img class=" text-center mx-auto mx-xl-0" src="@/assets/images/process.jpg" alt="Werkwijze">
             </div>
             <div class="col-12 col-lg-10 offset-lg-1 offset-xl-0 col-xl-4 right">
-                <h3>Oneindig veel opties.</h3>
-                <h4 class="mb-4">Minfal biedt keuze.</h4>
+                <h2 class="text-primary fw-bolder">Oneindig veel opties</h2>
+                <h3 class="mb-4 fw-bolder">Minfal biedt keuze</h3>
                 <p class="mb-4">
                     We beginnen met een integrale analyse. Zo krijgen wij een helder beeld van de huidige situatie. We inventariseren de huidige verpakkingen en zoeken naar de perfecte duurzame oplossing. <br><br>
-                    Bij een perfecte oplossing hoort een perfect product. Al onze producten worden in Nederland gefrabriceerd, en zijn van hoge Nederlandse Kwaliteit. Bij een product hoort een strategie, die ervoor zorgt dat het product het beste in jouw bedrijf past.<br><br>
+                    Bij een perfecte oplossing hoort een perfect product. Al onze producten worden in Nederland gefrabriceerd, en zijn van hoge Nederlandse Kwaliteit. Bij een product hoort een strategie, die ervoor zorgt dat het product het beste in uw bedrijf past.<br><br>
                     Na de analyse en productontwikkeling is het nu tijd voor de daadwerkelijke realisatie. Minfal beschikt over eigen matrijzen, waardoor u gegarandeerd unieke Minfal-producten ontvangt.
                 </p>
                 <button class="btn btn-outline-primary" @click="scrollTo('contact')">CONTACT</button>
@@ -43,7 +43,7 @@ export default {
     }
 
     img {
-        width: 90%;
+        width: 95%;
         height: auto;
     }
 

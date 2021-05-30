@@ -43,11 +43,9 @@ const $ = jQuery;
 window.$ = $;
 
 $(window).on('scroll', function () {
-    console.log(123)
     var navbar = $('.navbar');
 
     var scroll_position = $(window).scrollTop();
-    console.log(scroll_position)
 
     if (scroll_position > 0) {
         $(navbar).addClass('scrolled');

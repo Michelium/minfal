@@ -7,31 +7,29 @@
                         <img class="mt-2 w-50" src="@/assets/images/logo.jpg" alt="MINFAL">
                         <div class="row">
                             <div class="col-6">
-                                <h4 class="text-primary fw-bolder mt-3">Contact</h4>
-                                <p>Telefonisch bereikbaar op werkdagen tussen 09:00 tot 17:00 op:</p>
-                                <p>Zakelijk nummer</p>
-                                <br>
-                                <p>U kunt ons tevens ook mail met vragen via:</p>
-                                <a href="mailto:info@minfal.nl" class="text-primary text-decoration-none">info@minfal.nl</a>
-                            </div>
-                            <div class="col-6">
-                                <h4 class="text-primary fw-bolder mt-3">Gegevens</h4>
-                                <p>
-                                    Kvk nummer <br>
-                                    BTW nummer <br>
-                                    Bank <br>
-                                    B.V. in oprichting
-                                </p>
+                                <h2 class="text-primary fw-bolder mt-3">Contact</h2>
+                                <p>U kunt contact met ons opnemen via: <a href="mailto:info@minfal.nl" class="text-primary text-decoration-none">info@minfal.nl</a></p>
+                                <p class="mt-5">B.V. in oprichting</p>
                                 <p class="terms">
                                     <a href="documents/Algemene_voorwaarden.pdf" target="_blank" class="text-primary text-decoration-none">Algemene voorwaarden</a>
                                 </p>
                             </div>
+                            <div class="col-6">
+<!--                                <h4 class="text-primary fw-bolder mt-3">Gegevens</h4>-->
+<!--                                <p>-->
+<!--                                    Kvk nummer <br>-->
+<!--                                    BTW nummer <br>-->
+<!--                                    Bank <br>-->
+<!--                                    B.V. in oprichting-->
+<!--                                </p>-->
+
+                            </div>
                         </div>
                     </div>
                     <div class="col-12 col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-primary fw-bolder">Duurzaamheid</h4>
+                        <h2 class="text-primary fw-bolder">Duurzaamheid</h2>
                         <p>
-                            MINFAL draagt met het bedrijf en haar producten bij aan het behalen van de werelddoelen voor duurzame ontwikkeling. <br>
+                            Minfal draagt met het bedrijf en haar producten bij aan het behalen van de werelddoelen voor duurzame ontwikkeling. <br>
                             Het gaat om de zogeheten 'Sustainable Development Goals' van de Verenigde Naties.
                         </p>
                     </div>
@@ -39,7 +37,7 @@
                         <a href="https://www.un.org/sustainabledevelopment/sustainable-development-goals/" target="_blank">
                             <img class="mt-2 w-100" src="@/assets/images/goals.png" alt="Sustainable Development Goals">
                         </a>
-                        <div class="row mb-2 mt-4">
+                        <div class="row mb-2 mt-4 icons">
                             <div class="col-3 col-xl-4">
                                 <img src="@/assets/images/goals-12.png" alt="goals-12" class="goals w-50 float-start float-xl-end">
                             </div>
@@ -47,7 +45,7 @@
                                 <p>Afvalproductie verminderen door herbruikbare producten, en bedrijven aanmoedigen bij het doorvoeren van een duurzame oplossingen</p>
                             </div>
                         </div>
-                        <div class="row mb-2">
+                        <div class="row mb-2 icons">
                             <div class="col-3 col-xl-4">
                                 <img src="@/assets/images/goals-13.png" alt="goals-13" class="goals w-50 float-start float-xl-end">
                             </div>
@@ -55,7 +53,7 @@
                                 <p>Klimaatverandering tegengaan door reduceren broeikasgassen en stimuleren bewustzijn bij de mensen</p>
                             </div>
                         </div>
-                        <div class="row mb-2">
+                        <div class="row mb-2 icons">
                             <div class="col-3 col-xl-4">
                                 <img src="@/assets/images/goals-14.png" alt="goals-14" class="goals w-50 float-start float-xl-end">
                             </div>
@@ -63,7 +61,7 @@
                                 <p>Minder milieuvervuiling door inperken single-use items in de natuur en daarmee in zee</p>
                             </div>
                         </div>
-                        <div class="row mb-2">
+                        <div class="row mb-2 icons">
                             <div class="col-3 col-xl-4">
                                 <img src="@/assets/images/goals-15.png" alt="goals-15" class="goals w-50 float-start float-xl-end">
                             </div>
@@ -95,6 +93,10 @@ export default {
     .copyright {
         position: relative;
         top: 50%;
+    }
+
+    .icons {
+        min-height: 95px;
     }
 
     @media (max-width: 1200px) {

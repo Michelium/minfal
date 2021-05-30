@@ -3,8 +3,8 @@
         <div class="row mx-0">
             <div class="col-6 offset-3 col-md-8 offset-md-2 col-lg-6 offset-lg-3 col-xl-4 offset-xl-4 col-xxl-2 offset-xxl-5 triangle">
                 <div class="title-box bg-light text-center">
-                    <h3>Roadmap</h3>
-                    <h4>De toekomst met MINFAL</h4>
+                    <h2 class="text-primary fw-bolder">Roadmap</h2>
+                    <h3 class="fw-bolder">De toekomst met Minfal</h3>
                 </div>
             </div>
         </div>
@@ -18,7 +18,7 @@
                                     <h4>Q1 2021</h4>
                                     <hr>
                                     <img src="@/assets/images/roadmap/1.png" alt="">
-                                    <p>Oprichting Minfal <br>met één missie: <br>reduceren van <br>restafval</p>
+                                    <p>Oprichting Minfal <br>met één missie: <br>reduceren van <br>verpakkingsafval</p>
                                 </div>
                             </div>
                         </div>
