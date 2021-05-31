@@ -9,11 +9,11 @@
                     <div class="col-12 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
                         <div class="collapse navbar-collapse me-auto" id="navbarTogglerDemo01">
                             <ul class="navbar-nav ms-auto">
-                                <li class="nav-item"><a @click="scrollTo('hero')" class="nav-link">Home</a></li>
-                                <li class="nav-item"><a @click="scrollTo('innovation')" class="nav-link">MINFAL</a></li>
-                                <li class="nav-item"><a @click="scrollTo('process')" class="nav-link">Onze werkwijze</a></li>
-                                <li class="nav-item"><a @click="scrollTo('projects')" class="nav-link">Projecten</a></li>
-                                <li class="nav-item"><a @click="scrollTo('contact')" class="nav-link">Contact/informatie</a></li>
+                                <li class="nav-item"><a @click="scrollTo('#hero')" class="nav-link">Home</a></li>
+                                <li class="nav-item"><a @click="scrollTo('#innovation', -60)" class="nav-link">MINFAL</a></li>
+                                <li class="nav-item"><a @click="scrollTo('#process', -50)" class="nav-link">Onze werkwijze</a></li>
+                                <li class="nav-item"><a @click="scrollTo('#projects', -50)" class="nav-link">Projecten</a></li>
+                                <li class="nav-item"><a @click="scrollTo('#contact', -70)" class="nav-link">Contact/informatie</a></li>
                             </ul>
                         </div>
                     </div>
@@ -27,13 +27,12 @@
 export default {
     name: 'Header',
     methods: {
-        scrollTo(elementId) {
-            var element = document.getElementById(elementId);
-            element.scrollIntoView({
-                block: 'start',
-                behavior: 'smooth',
-            });
-        },
+        scrollTo(selector, yOffset = 0) {
+            const el = document.querySelector(selector);
+            const y = el.getBoundingClientRect().top + window.pageYOffset + yOffset;
+
+            window.scrollTo({top: y, behavior: 'smooth'});
+        }
     },
 }
 
@@ -71,8 +70,8 @@ nav .navbar-brand img {
 }
 
 .scrolled {
-    background: rgb(0,0,0)!important;
-    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,212,255,0) 100%)!important;
+    background: rgb(0, 0, 0) !important;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 212, 255, 0) 100%) !important;
 }
 
 .row {

@@ -53,7 +53,7 @@ img {
 }
 
 img:hover {
-    opacity: 70%;
+    opacity: 70%!important;
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
