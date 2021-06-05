@@ -11,7 +11,7 @@
                 <p>Mocht u zich afvragen: Wat kan Minfal voor mijn bedrijf betekenen? We zijn gemotiveerd om u te helpen en mee te denken. We bekijken snel de mogelijkheden en kunnen meteen aan de slag! Aarzel niet en neem vrijblijvend contact met
                     ons op!</p>
             </div>
-            <div class="col-12 col-md-5 col-lg-10 offset-lg-1 col-xl-3">
+            <div class="col-12 col-md-5 col-lg-10 offset-lg-1 col-xl-3 my-auto">
                 <video width="100%" controls>
                     <source src="video/promotionvideo.mp4" type="video/mp4">
                     Uw browser kan onze promotievideo helaas niet laden.
