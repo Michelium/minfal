@@ -4,7 +4,7 @@
             <div class="col-12 col-md-5 offset-md-1 offset-lg-1 col-xl-5 offset-xl-2 text-section">
                 <h1 class="text-primary">MINFAL</h1>
                 <h2 class="text-white">Omzetverhoging met <br>Afvalreductie</h2>
-                <a class="btn btn-outline-primary mt-md-5" @click="scrollTo('innovation')">ONTDEK</a>
+                <a class="btn btn-outline-primary mt-md-5" @click="scrollTo('#innovation', -60)">ONTDEK</a>
             </div>
         </div>
     </section>
@@ -71,13 +71,12 @@ img {
 export default {
     name: 'Hero',
     methods: {
-        scrollTo(elementId) {
-            var element = document.getElementById(elementId);
-            element.scrollIntoView({
-                block: 'start',
-                behavior: 'smooth',
-            });
-        },
+        scrollTo(selector, yOffset = 0) {
+            const el = document.querySelector(selector);
+            const y = el.getBoundingClientRect().top + window.pageYOffset + yOffset;
+
+            window.scrollTo({top: y, behavior: 'smooth'});
+        }
     },
 }
 </script>

@@ -21,7 +21,7 @@
                 <h2 class="text-primary fw-bolder">Innovatie is onze kracht</h2>
                 <p class="mt-3">Wij verzorgen het totale plaatje, van idee tot realisatie. Wij helpen u in het reduceren van restafval door het ontwikkelen van herbruikbare verpakkingen. Wij zorgen dat dure wegwerpverpakkingen tot de verleden tijd behoren. Zo
                     heeft uw bedrijf geen last van het toekomstige verbod op wegwerpverpakkingen en wordt uw duurzaamheidsimago verhoogd.</p>
-                <a class="btn btn-outline-primary mt-md-3" @click="scrollTo('process')">ONZE WERKWIJZE</a>
+                <a class="btn btn-outline-primary mt-md-3" @click="scrollTo('#process', -50)">ONZE WERKWIJZE</a>
             </div>
         </div>
     </section>
@@ -31,13 +31,12 @@
 export default {
     name: "Innovation",
     methods: {
-        scrollTo(elementId) {
-            var element = document.getElementById(elementId);
-            element.scrollIntoView({
-                block: 'start',
-                behavior: 'smooth',
-            });
-        },
+        scrollTo(selector, yOffset = 0) {
+            const el = document.querySelector(selector);
+            const y = el.getBoundingClientRect().top + window.pageYOffset + yOffset;
+
+            window.scrollTo({top: y, behavior: 'smooth'});
+        }
     },
 }
 </script>
@@ -50,10 +49,11 @@ section {
 img {
     width: 100%;
     height: 100%;
+    transition: 0.4s;
 }
 
 img:hover {
-    opacity: 0.7;
+    opacity: 0.5;
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
