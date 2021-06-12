@@ -19,6 +19,7 @@ function init() {
 function initSlickCarousel() {
     $('.slick-carousel').slick({
         // edgeFriction: 0,
+        initialSlide: 2,
         infinite: false,
         slidesToShow: 4,
         slidesToScroll: 1,
@@ -47,13 +48,6 @@ function initSlickCarousel() {
                     slidesToScroll: 1
                 }
             },
-            // {
-            //     breakpoint: 575,
-            //     settings: {
-            //         slidesToShow: 1,
-            //         slidesToScroll: 1
-            //     }
-            // }
             // You can unslick at a given breakpoint now by adding:
             // settings: "unslick"
             // instead of a settings object
