@@ -11,8 +11,8 @@
         <div class="row mx-0 bg-light py-5">
             <div class="col-12">
                 <div class="hexagon-row">
-                    <div class="row">
-                        <div class="col-auto mx-auto">
+                    <div class="row slick-carousel">
+                        <div class="mx-auto slider-slide">
                             <div class="hexagon">
                                 <div class="inside">
                                     <h4>Q1 2021</h4>
@@ -22,7 +22,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-auto mx-auto">
+                        <div class="mx-auto slider-slide">
                             <div class="hexagon">
                                 <div class="inside">
                                     <h4>Q2 2021</h4>
@@ -32,7 +32,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-auto mx-auto">
+                        <div class="mx-auto slider-slide">
                             <div class="hexagon">
                                 <div class="inside">
                                     <h4>Q3 2021</h4>
@@ -42,7 +42,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-auto mx-auto">
+                        <div class="mx-auto slider-slide">
                             <div class="hexagon">
                                 <div class="inside">
                                     <h4>Q4 2021</h4>
@@ -52,10 +52,51 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="mx-auto slider-slide">
+                            <div class="hexagon">
+                                <div class="inside">
+                                    <h4>Toekomst</h4>
+                                    <hr>
+                                    <img src="@/assets/images/roadmap/5.png" alt="">
+                                    <p>Nieuwe producten <br>realiseren en uitbreiding <br>naar nieuwe sectoren</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mx-auto slider-slide">
+                            <div class="hexagon">
+                                <div class="inside">
+                                    <h4>Toekomst</h4>
+                                    <hr>
+                                    <img src="@/assets/images/roadmap/6.png" alt="">
+                                    <p>Ontwikkeling circulaire <br>systemen in diverse <br>sectoren. Verder verhogen <br>afvalreductie</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mx-auto slider-slide">
+                            <div class="hexagon">
+                                <div class="inside">
+                                    <h4>Toekomst</h4>
+                                    <hr>
+                                    <img src="@/assets/images/roadmap/7.png" alt="">
+                                    <p>Internationale <br>markt betreden en voorzien van <br>herbruikbare producten en <br>circulaire systemen</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mx-auto slider-slide">
+                            <div class="hexagon">
+                                <div class="inside">
+                                    <h4>Toekomst</h4>
+                                    <hr>
+                                    <img src="@/assets/images/roadmap/8.png" alt="">
+                                    <p>Einde wegwerpverpakkingen, <br>ondersteund door wet- en <br>regelgevingen. <br>Doorontwikkeling Minfal</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                <div class="slick-previous-arrow slick-arrow"></div>
+                <div class="slick-next-arrow slick-arrow"></div>
             </div>
-
         </div>
     </section>
 </template>
@@ -125,6 +166,7 @@ export default {
 .hexagon {
     position: relative;
     min-width: 300px;
+    right: -4%;
     min-height: 260px;
     width: 20vw;
     height: calc(20vw * 0.86);
@@ -191,6 +233,48 @@ export default {
 @media (min-width: 0px) and (max-width: 1647px) {
     .hexagon .inside p {
         font-size: 11px;
+    }
+}
+
+.slick-arrow{
+    width: 46px;
+    height: 46px;
+    position: relative;
+    top: -49%;
+    opacity: 1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.slick-arrow:hover{
+    opacity: 0.6;
+}
+.slick-arrow.slick-previous-arrow{
+    background-image: url('~@/assets/images/left-arrow.png');
+    left: 0;
+}
+@media (min-width: 0px) and (max-width: 715px) {
+    .slick-arrow.slick-previous-arrow{
+        top: -47%;
+    }
+}
+.slick-arrow.slick-next-arrow{
+    background-image: url('~@/assets/images/right-arrow.png');
+    right: -94.6%;
+    top: -60%;
+}
+@media (min-width: 391px) and (max-width: 619px) {
+    .slick-arrow.slick-next-arrow{
+        right: -91.6%;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 730px) {
+    .hexagon {
+        margin: 0 auto;
+        right: unset;
     }
 }
 
