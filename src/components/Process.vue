@@ -12,7 +12,7 @@
                     Bij een perfecte oplossing hoort een perfect product. Al onze producten worden in Nederland gefabriceerd, en zijn van hoge Nederlandse Kwaliteit. Bij een product hoort een strategie, die ervoor zorgt dat het product het beste in uw bedrijf past.<br><br>
                     Na de analyse en productontwikkeling is het nu tijd voor de daadwerkelijke realisatie. Minfal beschikt over eigen matrijzen, waardoor u gegarandeerd unieke Minfal-producten ontvangt.
                 </p>
-                <button class="btn btn-outline-primary" @click="scrollTo('#contact', -70)">CONTACT</button>
+                <button class="btn btn-outline-primary" @click="scrollTo('#contact', -190)">CONTACT</button>
             </div>
         </div>
     </section>

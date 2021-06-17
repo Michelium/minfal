@@ -3,8 +3,8 @@
         <div class="row mx-0">
             <div class="col-6 offset-3 col-md-8 offset-md-2 col-lg-6 offset-lg-3 col-xl-4 offset-xl-4 col-xxl-2 offset-xxl-5 triangle">
                 <div class="title-box bg-light text-center">
-                    <h2 class="text-primary fw-bolder">Roadmap</h2>
-                    <h3 class="fw-bolder">De toekomst met Minfal</h3>
+                    <h2 class="text-primary fw-bolder title">Roadmap</h2>
+                    <h3 class="fw-bolder sub-title">De toekomst met Minfal</h3>
                 </div>
             </div>
         </div>
@@ -160,6 +160,18 @@ export default {
     }
 }
 
+@media (min-width: 328px) and (max-width: 433px) {
+    .title {
+        font-size: 30px!important;
+    }
+}
+@media (min-width: 250px) and (max-width: 327px) {
+    .title {
+        font-size: 26px!important;
+    }
+}
+
+
 .hexagon-row {
     width: 85vw;
     margin: 0 auto;
@@ -247,9 +259,14 @@ export default {
         top: -55%;
     }
 }
-@media (min-width: 0px) and (max-width: 730px) {
+@media (min-width: 401px) and (max-width: 730px) {
     .arrows {
         top: -51%;
+    }
+}
+@media (min-width: 0px) and (max-width: 400px) {
+    .arrows {
+        top: 0;
     }
 }
 
