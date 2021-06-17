@@ -73,7 +73,7 @@
                 </div>
             </div>
             <div class="col-12">
-                <p class="copyright align-text-bottom text-center">Copyright © 2021 <a class="text-primary text-decoration-none" href="www.minfal.nl">www.minfal.nl</a> All right reserved.</p>
+                <p class="copyright align-text-bottom text-center">Copyright © 2021 <a class="text-primary text-decoration-none" @click="scrollTo('#hero')">www.minfal.nl</a> All rights reserved.</p>
             </div>
         </div>
     </section>
@@ -81,7 +81,15 @@
 
 <script>
 export default {
-    name: "Footer"
+    name: "Footer",
+    methods: {
+        scrollTo(selector, yOffset = 0) {
+            const el = document.querySelector(selector);
+            const y = el.getBoundingClientRect().top + window.pageYOffset + yOffset;
+
+            window.scrollTo({top: y, behavior: 'smooth'});
+        }
+    },
 }
 </script>
 
