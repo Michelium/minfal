@@ -94,8 +94,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="slick-previous-arrow slick-arrow"></div>
-                <div class="slick-next-arrow slick-arrow"></div>
+                <div class="arrows">
+                    <div class="slick-previous-arrow slick-arrow float-start"></div>
+                    <div class="slick-next-arrow slick-arrow float-end"></div>
+                </div>
             </div>
         </div>
     </section>
@@ -236,39 +238,39 @@ export default {
     }
 }
 
+.arrows {
+    position: relative;
+    top: -53%;
+}
+@media (min-width: 731px) and (max-width: 1443px) {
+    .arrows {
+        top: -55%;
+    }
+}
+@media (min-width: 0px) and (max-width: 730px) {
+    .arrows {
+        top: -51%;
+    }
+}
+
 .slick-arrow{
     width: 46px;
     height: 46px;
-    position: relative;
-    top: -49%;
     opacity: 1;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     cursor: pointer;
 }
-
 .slick-arrow:hover{
     opacity: 0.6;
 }
+
 .slick-arrow.slick-previous-arrow{
     background-image: url('~@/assets/images/left-arrow.png');
-    left: 0;
-}
-@media (min-width: 0px) and (max-width: 715px) {
-    .slick-arrow.slick-previous-arrow{
-        top: -47%;
-    }
 }
 .slick-arrow.slick-next-arrow{
     background-image: url('~@/assets/images/right-arrow.png');
-    right: -94.6%;
-    top: -60%;
-}
-@media (min-width: 391px) and (max-width: 619px) {
-    .slick-arrow.slick-next-arrow{
-        right: -91.6%;
-    }
 }
 
 @media (min-width: 0px) and (max-width: 730px) {
