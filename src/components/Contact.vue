@@ -8,13 +8,13 @@
                         <p class="text-dark">Uw bericht is verstuurd! We komen zo spoedig mogelijk bij u terug!</p>
                     </div>
                     <div class="form-group mb-3">
-                        <input v-model="name" class="form-control bg-light py-2" type="text" name="name" id="name" placeholder="Bedrijfsnaam" autocomplete="off" required>
+                        <input v-model="name" class="form-control bg-light py-2" type="text" name="name" id="name" placeholder="Bedrijfsnaam *" autocomplete="off" required>
                     </div>
                     <div class="form-group mb-3">
-                        <input v-model="email" class="form-control bg-light py-2" type="email" name="email" id="email" placeholder="E-mail" autocomplete="off" required>
+                        <input v-model="email" class="form-control bg-light py-2" type="email" name="email" id="email" placeholder="E-mail *" autocomplete="off" required>
                     </div>
                     <div class="form-group mb-3">
-                        <input v-model="phone" class="form-control bg-light py-2" type="text" name="phone" id="phone" placeholder="Telefoonnummer" autocomplete="off">
+                        <input v-model="phone" class="form-control bg-light py-2" type="text" name="phone" id="phone" placeholder="Telefoonnummer *" autocomplete="off">
                     </div>
                     <div class="form-group mb-3">
                         <textarea v-model="message" class="form-control bg-light py-2" name="message" id="message" placeholder="Bericht" autocomplete="off" required rows="7"></textarea>

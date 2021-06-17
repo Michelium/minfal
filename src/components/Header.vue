@@ -5,12 +5,12 @@
                 <button class="navbar-toggler float-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="row navbar-row">
+                <div class="row navbar-row mt-1">
                     <div class="col-12 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
                         <div class="collapse navbar-collapse me-auto" id="navbarTogglerDemo01">
                             <ul class="navbar-nav ms-auto">
                                 <li class="nav-item"><a @click="scrollTo('#hero')" class="nav-link">Home</a></li>
-                                <li class="nav-item"><a @click="scrollTo('#innovation', -60)" class="nav-link">MINFAL</a></li>
+                                <li class="nav-item"><a @click="scrollTo('#innovation', -160)" class="nav-link">MINFAL</a></li>
                                 <li class="nav-item"><a @click="scrollTo('#process', -50)" class="nav-link">Onze werkwijze</a></li>
                                 <li class="nav-item"><a @click="scrollTo('#projects', -50)" class="nav-link">Projecten</a></li>
                                 <li class="nav-item"><a @click="scrollTo('#contact', -70)" class="nav-link">Contact/informatie</a></li>
@@ -94,6 +94,11 @@ nav .navbar-brand img {
 .custom-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
     color: $green;
     cursor: pointer;
+}
+@media (max-width: 991.98px) {
+    .custom-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
+        color: $gray-700;
+    }
 }
 
 

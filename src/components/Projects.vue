@@ -13,7 +13,7 @@
             </div>
             <div class="col-12 col-md-5 col-lg-10 offset-lg-1 col-xl-3 my-auto">
                 <video width="100%" controls>
-                    <source src="video/promotionvideo.mp4" type="video/mp4">
+                    <source src="video/promotionvideo.mp4#t=0.001" type="video/mp4">
                     Uw browser kan onze promotievideo helaas niet laden.
                 </video>
             </div>
