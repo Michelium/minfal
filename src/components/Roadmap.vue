@@ -175,6 +175,7 @@ export default {
 .hexagon-row {
     width: 85vw;
     margin: 0 auto;
+    padding-top: 80px;
 }
 
 .hexagon {
@@ -252,16 +253,16 @@ export default {
 
 .arrows {
     position: relative;
-    top: -53%;
+    top: -46%;
 }
 @media (min-width: 731px) and (max-width: 1443px) {
     .arrows {
-        top: -55%;
+        top: -44%;
     }
 }
 @media (min-width: 401px) and (max-width: 730px) {
     .arrows {
-        top: -51%;
+        top: -40%;
     }
 }
 @media (min-width: 0px) and (max-width: 400px) {

@@ -81,7 +81,7 @@ export default {
 
 <style scoped>
 section {
-    margin-bottom: 70px;
+    margin-bottom: 160px;
 }
 
 input:hover, textarea:hover {
