@@ -6,7 +6,7 @@
                     <div class="col-12 col-xl-4 mb-5 mb-xl-0">
                         <img class="mt-2 w-50" src="@/assets/images/logo.jpg" alt="MINFAL">
                         <div class="row">
-                            <div class="col-6">
+                            <div class="col-12">
                                 <h2 class="text-primary fw-bolder mt-3">Contact</h2>
                                 <p>U kunt contact met ons opnemen via: <a href="mailto:info@minfal.nl" class="text-primary text-decoration-none">info@minfal.nl</a></p>
                                 <p class="mt-5">B.V. in oprichting</p>
