@@ -8,7 +8,7 @@
                 </div>
             </div>
         </div>
-        <div class="row mx-0 bg-light py-5">
+        <div class="row mx-0 bg-light main-row">
             <div class="col-12">
                 <div class="hexagon-row">
                     <div class="row slick-carousel">
@@ -110,6 +110,10 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.main-row {
+    padding-top: 80px;
+}
+
 .triangle {
     max-width: 100vw;
 }
@@ -175,7 +179,7 @@ export default {
 .hexagon-row {
     width: 85vw;
     margin: 0 auto;
-    padding-top: 80px;
+    //padding-top: 80px;
 }
 
 .hexagon {
@@ -253,21 +257,46 @@ export default {
 
 .arrows {
     position: relative;
-    top: -46%;
+    top: -55%;
 }
+
+.slick-arrow.slick-previous-arrow {
+    background-image: url('~@/assets/images/left-arrow.png');
+    margin-left: 20px;
+}
+
+.slick-arrow.slick-next-arrow {
+    background-image: url('~@/assets/images/right-arrow.png');
+    margin-right: 20px;
+}
+
 @media (min-width: 731px) and (max-width: 1443px) {
     .arrows {
-        top: -44%;
+        top: -55%;
     }
 }
+
 @media (min-width: 401px) and (max-width: 730px) {
     .arrows {
-        top: -40%;
+        top: -50%;
+    }
+    .slick-arrow.slick-previous-arrow {
+        margin-left: unset;
+    }
+    .slick-arrow.slick-next-arrow {
+        margin-right: unset;
     }
 }
+
 @media (min-width: 0px) and (max-width: 400px) {
     .arrows {
-        top: 0;
+        top: -11px;
+    }
+    .slick-arrow.slick-previous-arrow {
+        margin-left: unset;
+    }
+    .slick-arrow.slick-next-arrow {
+        margin-right: unset;
     }
 }
 
@@ -282,13 +311,6 @@ export default {
 }
 .slick-arrow:hover{
     opacity: 0.6;
-}
-
-.slick-arrow.slick-previous-arrow{
-    background-image: url('~@/assets/images/left-arrow.png');
-}
-.slick-arrow.slick-next-arrow{
-    background-image: url('~@/assets/images/right-arrow.png');
 }
 
 @media (min-width: 0px) and (max-width: 730px) {

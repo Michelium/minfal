@@ -12,7 +12,7 @@
                                 <li class="nav-item"><a @click="scrollTo('#hero')" class="nav-link">Home</a></li>
                                 <li class="nav-item"><a @click="scrollTo('#innovation', -160)" class="nav-link">MINFAL</a></li>
                                 <li class="nav-item"><a @click="scrollTo('#process', -150)" class="nav-link">Onze werkwijze</a></li>
-                                <li class="nav-item"><a @click="scrollTo('#projects', -50)" class="nav-link">Projecten</a></li>
+                                <li class="nav-item"><a @click="scrollTo('#projects', -160)" class="nav-link">Projecten</a></li>
                                 <li class="nav-item"><a @click="scrollTo('#contact', -190)" class="nav-link">Contact/informatie</a></li>
                             </ul>
                         </div>
