@@ -38,7 +38,7 @@
                                     <h4>Q3 2021</h4>
                                     <hr>
                                     <img src="@/assets/images/roadmap/3.png" alt="">
-                                    <p>Amusementssector <br>aangeboord. <br>Productoptimalisatie en <br>realiseren productie</p>
+                                    <p>Amusementssector <br>aangeboord, realisatie  <br>herbruikbare popcornbak</p>
                                 </div>
                             </div>
                         </div>
@@ -48,7 +48,7 @@
                                     <h4>Q4 2021</h4>
                                     <hr>
                                     <img src="@/assets/images/roadmap/4.png" alt="">
-                                    <p>Realisatie circulaire <br>systemen bij <br>amusementssector. <br>Ontwikkeling nieuwe <br>producten</p>
+                                    <p>Productoptimalisatie en<br>realiseren productie, <br>diverse productvarianten<br>realiseren</p>
                                 </div>
                             </div>
                         </div>
@@ -58,7 +58,7 @@
                                     <h4>Toekomst</h4>
                                     <hr>
                                     <img src="@/assets/images/roadmap/5.png" alt="">
-                                    <p>Nieuwe producten <br>realiseren en uitbreiding <br>naar nieuwe sectoren</p>
+                                    <p>Ontwikkeling circulaire <br>verpakkingssysteem in <br>amusementssector, verder <br>verhogen afvalreductie </p>
                                 </div>
                             </div>
                         </div>
@@ -68,7 +68,7 @@
                                     <h4>Toekomst</h4>
                                     <hr>
                                     <img src="@/assets/images/roadmap/6.png" alt="">
-                                    <p>Ontwikkeling circulaire <br>systemen in diverse <br>sectoren. Verder verhogen <br>afvalreductie</p>
+                                    <p>Nieuwe producten  <br>realiseren en uitbreiding  <br>naar nieuwe sectoren</p>
                                 </div>
                             </div>
                         </div>
@@ -78,7 +78,7 @@
                                     <h4>Toekomst</h4>
                                     <hr>
                                     <img src="@/assets/images/roadmap/7.png" alt="">
-                                    <p>Internationale <br>markt betreden en voorzien van <br>herbruikbare producten en <br>circulaire systemen</p>
+                                    <p>Internationale markt <br>betreden en voorzien van  <br>herbruikbare producten en <br>circulaire systemen</p>
                                 </div>
                             </div>
                         </div>
@@ -88,7 +88,7 @@
                                     <h4>Toekomst</h4>
                                     <hr>
                                     <img src="@/assets/images/roadmap/8.png" alt="">
-                                    <p>Einde wegwerpverpakkingen, <br>ondersteund door wet- en <br>regelgevingen. <br>Doorontwikkeling Minfal</p>
+                                    <p>Einde <br>wegwerpverpakkingen,<br>ondersteund door wet- en<br>regelgevingen, <br>doorontwikkeling Minfal</p>
                                 </div>
                             </div>
                         </div>
