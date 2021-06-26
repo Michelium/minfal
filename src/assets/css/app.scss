@@ -3,6 +3,27 @@
 @import "~slick-carousel/slick/slick";
 //@import "~slick-carousel/slick/slick-theme.css";
 
+:root {
+  --blue: #2780e3;
+  --indigo: #6610f2;
+  --purple: #613d7c;
+  --pink: #e83e8c;
+  --red: #ff0039;
+  --orange: #f0ad4e;
+  --yellow: #ff7518;
+  --green: #587458;
+  --teal: #20c997;
+  --cyan: #9954bb;
+  --primary: #587458;
+  --secondary: #bfd9a8;
+  --success: #587458;
+  --info: #9954bb;
+  --warning: #ff7518;
+  --danger: #ff0039;
+  --light: #262626;
+  --dark: #191919FF;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -21,11 +42,11 @@ h1 {
 }
 
 h2 {
-  font-size: 36px!important;
+  font-size: 36px !important;
 }
 
 h3 {
-  font-size: 22px!important;
+  font-size: 22px !important;
   font-weight: bolder;
   color: $white;
 }

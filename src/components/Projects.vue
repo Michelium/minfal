@@ -12,10 +12,27 @@
                     ons op!</p>
             </div>
             <div class="col-12 col-md-5 col-lg-10 offset-lg-1 col-xl-3 my-auto">
-                <video width="100%" controls>
-                    <source src="video/promotionvideo.mp4#t=0.001" type="video/mp4">
-                    Uw browser kan onze promotievideo helaas niet laden.
-                </video>
+                <div id="video-box w-100">
+                    <div id="video-button" @click="toggleOverlay">
+                        <img src="@/assets/images/information.svg" alt="Info">
+                    </div>
+                    <div id="video-overlay">
+                        <div class="row">
+                            <div class="col-6 text-center">
+                                <img src="@/assets/images/video.svg" alt="Video">
+                                <h4 class="mt-3">Wilt u een ook een geanimeerde promotiefilm voor uw product?</h4>
+                            </div>
+                            <div class="col-6 text-center">
+                                <img class="logo" src="@/assets/images/logo.jpg" alt="Minfal">
+                                <h4 class="mt-3">Neem dan contact op via info@minfal.nl</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <video controls>
+                        <source src="video/promotionvideo.mp4#t=0.001" type="video/mp4">
+                        Uw browser kan onze promotievideo helaas niet laden.
+                    </video>
+                </div>
             </div>
         </div>
     </section>
@@ -23,11 +40,25 @@
 
 <script>
 export default {
-    name: "Projects"
+    name: "Projects",
+    methods: {
+        toggleOverlay() {
+            var x = document.getElementById("video-overlay");
+            if (x.style.opacity == 0) {
+                setTimeout(() => {
+                    x.style.transition = "opacity 0.5s linear 0s";
+                    x.style.opacity = 1;
+                }, this.animationDelay + 20);
+            } else {
+                x.style.transition = "opacity 0.5s linear 0s";
+                x.style.opacity = 0;
+            }
+        }
+    }
 }
 </script>
 
-<style scoped lang="scss">
+<style scoped>
 section {
     margin-bottom: 160px;
 }
@@ -48,9 +79,67 @@ h2 {
     }
 }
 
-img {
+video {
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+#video-overlay {
+    position: absolute;
+    z-index: 500;
+    min-height: 305px;
+    width: 545px;
+    background-color: #98B386;
+    opacity: 0;
+}
+#video-overlay img {
     margin-top: 60px;
     position: relative;
     width: 100%;
+}
+#video-overlay img:first-of-type {
+    width: 100px;
+}
+#video-overlay img.logo {
+    width: 230px;
+}
+#video-overlay h4 {
+    color: var(--dark);
+    font-weight: bolder;
+    padding: 0 10px;
+}
+
+#video-button {
+    position: absolute;
+    z-index: 1000;
+    width: 45px;
+    height: 50px;
+}
+#video-button:hover {
+    cursor: pointer;
+}
+#video-button img {
+    width: 45px;
+    height: 50px;
+    padding: 5px;
+}
+
+@media (max-width: 575px) {
+    #video-overlay {
+        width: 281px;
+        height: 200px;
+        min-height: unset;
+    }
+    #video-overlay img:first-of-type {
+        width: 45px;
+    }
+    #video-overlay img.logo {
+        width: 106px;
+    }
+    #video-overlay h4 {
+        font-size: 12px;
+    }
 }
 </style>
