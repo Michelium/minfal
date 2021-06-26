@@ -8,22 +8,17 @@
                         <div class="row">
                             <div class="col-12">
                                 <h2 class="text-primary fw-bolder mt-3">Contact</h2>
-                                <p>U kunt contact met ons opnemen via: <a href="mailto:info@minfal.nl" class="text-primary text-decoration-none">info@minfal.nl</a></p>
-                                <p class="mt-5">B.V. in oprichting</p>
+                                <p>U kunt contact met ons opnemen via: <br><a href="mailto:info@minfal.nl" class="text-primary text-decoration-none">info@minfal.nl</a></p>
+                                <p class="mt-5">KVK nr. 83173862</p>
                                 <p class="terms">
                                     <a href="documents/Algemene_voorwaarden.pdf" target="_blank" class="text-primary text-decoration-none">Algemene voorwaarden</a>
                                 </p>
+                                <a href="https://www.linkedin.com/company/minfal-b-v" target="_blank" type="button" class="btn btn-labeled btn-success">
+                                    <span class="btn-label"><img src="@/assets/images/linkedin-app.svg" alt="LinkedIn"></span>
+                                    <span>Volg ons!</span>
+                                </a>
                             </div>
-                            <div class="col-6">
-<!--                                <h4 class="text-primary fw-bolder mt-3">Gegevens</h4>-->
-<!--                                <p>-->
-<!--                                    Kvk nummer <br>-->
-<!--                                    BTW nummer <br>-->
-<!--                                    Bank <br>-->
-<!--                                    B.V. in oprichting-->
-<!--                                </p>-->
-
-                            </div>
+                            <div class="col-6"></div>
                         </div>
                     </div>
                     <div class="col-12 col-xl-4 mb-5 mb-xl-0">
@@ -32,6 +27,8 @@
                             Minfal draagt met het bedrijf en haar producten bij aan het behalen van de werelddoelen voor duurzame ontwikkeling. <br>
                             Het gaat om de zogeheten 'Sustainable Development Goals' van de Verenigde Naties.
                         </p>
+                        <img src="@/assets/images/devices.png" alt="Devices" class="w-100 devices">
+                        <h4 class="fw-bolder">Minfal is op alle devices beschikbaar</h4>
                     </div>
                     <div class="col-12 col-xl-4 mb-5 mb-xl-0">
                         <a href="https://www.un.org/sustainabledevelopment/sustainable-development-goals/" target="_blank">
@@ -94,6 +91,32 @@ export default {
 </script>
 
 <style scoped>
+    h4 {
+        font-size: 18px;
+    }
+    img.devices {
+        margin-top: 15px;
+    }
+
+    .btn-label {
+        position: relative;
+        left: -12px;
+        display: inline-block;
+        padding: 6px 6px 12px 12px;
+        border-radius: 3px 0 0 3px;
+    }
+    .btn-label img {
+        width: 35px;
+    }
+    .btn-labeled {
+        padding-top: 0;
+        padding-bottom: 0;
+        border-radius: 5px;
+        height: 50px;
+        color: var(--dark);
+        font-weight: bolder;
+    }
+
     .terms {
         padding-top: 40px;
     }
