@@ -6,7 +6,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="row navbar-row mt-1">
-                    <div class="col-12 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
+                    <div class="col-12 col-xl-4 offset-xl-6">
                         <div class="collapse navbar-collapse me-auto" id="navbarTogglerDemo01">
                             <ul class="navbar-nav ms-auto">
                                 <li class="nav-item"><a @click="scrollTo('#hero')" class="nav-link">Home</a></li>
@@ -96,13 +96,12 @@ nav .navbar-brand img {
     cursor: pointer;
 }
 @media (max-width: 991.98px) {
+    .row {
+        width: 102% !important;
+    }
     .custom-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
         color: $gray-700;
     }
-}
-
-
-@media (max-width: 991.98px) {
     .custom-navbar-light {
         background: $green !important;
         top: 0;
@@ -112,12 +111,16 @@ nav .navbar-brand img {
     .custom-navbar-light .row:first-of-type {
         background: $green !important;
     }
+    .custom-navbar-light .navbar-nav {
+        padding-bottom: 10px;
+    }
+    .custom-navbar-light .navbar-nav > .nav-item > .nav-link {
+        padding: .5em .9em;
+        text-align: start;
+    }
 }
 
 @media (max-width: 766px) {
-    .row {
-        width: 102% !important;
-    }
 
     .col-12 {
         text-align: center;
@@ -132,19 +135,6 @@ nav .navbar-brand img {
 @media (max-width: 455px) {
     a.nav-link {
         padding: .5em .5em;
-    }
-}
-
-@media (max-width: 991.98px) {
-    .custom-navbar-light .navbar-nav {
-        padding-bottom: 10px;
-    }
-}
-
-@media (max-width: 991.98px) {
-    .custom-navbar-light .navbar-nav > .nav-item > .nav-link {
-        padding: .5em .9em;
-        text-align: start;
     }
 }
 </style>
