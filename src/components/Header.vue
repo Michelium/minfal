@@ -20,6 +20,10 @@
                 </div>
             </div>
         </nav>
+        <div class="d-none">
+            <span>popcorn</span>
+            <span>hergebruik</span>
+        </div>
     </section>
 </template>
 

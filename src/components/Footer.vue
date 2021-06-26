@@ -34,7 +34,7 @@
                         <a href="https://www.un.org/sustainabledevelopment/sustainable-development-goals/" target="_blank">
                             <img class="mt-2 w-100" src="@/assets/images/goals.png" alt="Sustainable Development Goals">
                         </a>
-                        <div class="row mb-2 mt-4 icons">
+                        <div class="row mb-4 mt-4 icons">
                             <div class="col-3">
                                 <img src="@/assets/images/goals-12.png" alt="goals-12" class="goals w-50 float-start float-xl-end">
                             </div>
@@ -42,7 +42,7 @@
                                 <p>Afvalproductie verminderen door herbruikbare producten, en bedrijven aanmoedigen bij het doorvoeren van een duurzame oplossingen</p>
                             </div>
                         </div>
-                        <div class="row mb-2 icons">
+                        <div class="row mb-4 icons">
                             <div class="col-3">
                                 <img src="@/assets/images/goals-13.png" alt="goals-13" class="goals w-50 float-start float-xl-end">
                             </div>
@@ -50,7 +50,7 @@
                                 <p>Klimaatverandering tegengaan door reduceren broeikasgassen en stimuleren bewustzijn bij de mensen</p>
                             </div>
                         </div>
-                        <div class="row mb-2 icons">
+                        <div class="row mb-4 icons">
                             <div class="col-3">
                                 <img src="@/assets/images/goals-14.png" alt="goals-14" class="goals w-50 float-start float-xl-end">
                             </div>
@@ -58,7 +58,7 @@
                                 <p>Minder milieuvervuiling door inperken single-use items in de natuur en daarmee in zee</p>
                             </div>
                         </div>
-                        <div class="row mb-2 icons">
+                        <div class="row mb-4 icons">
                             <div class="col-3">
                                 <img src="@/assets/images/goals-15.png" alt="goals-15" class="goals w-50 float-start float-xl-end">
                             </div>
