@@ -4,7 +4,7 @@
             <div class="col-12 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
                 <div class="row">
                     <div class="col-12 col-xl-4 mb-5 mb-xl-0">
-                        <img class="mt-2 w-50" src="@/assets/images/logo.jpg" alt="MINFAL">
+                        <img class="mt-2 w-50" src="@/assets/images/logo_big.png" alt="MINFAL">
                         <div class="row">
                             <div class="col-12">
                                 <h2 class="text-primary fw-bolder mt-3">Contact</h2>
