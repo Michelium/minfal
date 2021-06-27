@@ -93,6 +93,7 @@ nav .navbar-brand img {
     font-weight: 500;
     text-transform: uppercase;
     opacity: 1 !important;
+    white-space: nowrap;
 }
 
 .custom-navbar-light .navbar-nav > .nav-item > .nav-link:hover {

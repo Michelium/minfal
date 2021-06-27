@@ -93,6 +93,7 @@ video {
     width: 545px;
     background-color: #98B386;
     opacity: 0;
+    pointer-events: none;
 }
 #video-overlay img {
     margin-top: 60px;
