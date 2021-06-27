@@ -6,7 +6,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="row navbar-row mt-1">
-                    <div class="col-12 col-xl-4 offset-xl-6">
+                    <div class="col-12 col-xl-5 offset-xl-5">
                         <div class="collapse navbar-collapse me-auto" id="navbarTogglerDemo01">
                             <ul class="navbar-nav ms-auto">
                                 <li class="nav-item"><a @click="scrollTo('#hero')" class="nav-link">Home</a></li>
