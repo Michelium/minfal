@@ -9,8 +9,8 @@
                 <h3 class="mb-4 fw-bolder">Minfal biedt keuze</h3>
                 <p class="mb-4">
                     We beginnen met een integrale analyse. Zo krijgen wij een helder beeld van de huidige situatie. We brengen de huidige verpakkingen in kaart en zoeken naar de perfecte afval-reducerende oplossing. <br><br>
-                    Bij een perfecte oplossing hoort een perfect product. Al onze producten worden in Nederland gefabriceerd, en zijn van hoge Nederlandse Kwaliteit. Bij een product hoort een strategie, die ervoor zorgt dat het product het beste in uw bedrijf past.<br><br>
-                    Na de analyse en productontwikkeling is het nu tijd voor de daadwerkelijke realisatie. Minfal beschikt over eigen matrijzen, waardoor u gegarandeerd unieke Minfal-producten ontvangt.
+                    Bij een perfecte oplossing hoort een perfect product. Al onze producten worden in Nederland gefabriceerd, en zijn van hoge Nederlandse Kwaliteit. Bij het product hoort tevens een goede strategie, die ervoor zorgt dat het product het beste in uw bedrijf past.<br><br>
+                    Na de analyse en productontwikkeling is het tijd voor de daadwerkelijke realisatie. Minfal beschikt over eigen matrijzen, waardoor u gegarandeerd unieke Minfal-producten ontvangt.
                 </p>
                 <button class="btn btn-outline-primary" @click="scrollTo('#contact', -190)">CONTACT</button>
             </div>
@@ -32,7 +32,7 @@ export default {
 }
 </script>
 
-<style scoped lang="scss">
+<style scoped>
     .row {
         margin: 150px 0 150px 0;
     }

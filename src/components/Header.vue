@@ -59,7 +59,7 @@ $(window).on('scroll', function () {
 
 </script>
 
-<style scoped lang="scss">
+<style scoped>
 nav .navbar-brand img {
     max-height: 70px !important;
     display: block;
@@ -69,7 +69,7 @@ nav .navbar-brand img {
     background: transparent !important;
     left: 0;
     right: 0;
-    z-index: 15;
+    z-index: 1050;
     position: fixed;
 }
 
@@ -84,10 +84,7 @@ nav .navbar-brand img {
 
 .custom-navbar-light .navbar-nav > .nav-item > .nav-link {
     font-size: 15px;
-    padding-top: .9rem;
-    padding-bottom: .9rem;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: .9rem 20px;
     letter-spacing: 1px;
     color: white;
     font-weight: 500;
@@ -97,7 +94,7 @@ nav .navbar-brand img {
 }
 
 .custom-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
-    color: $green;
+    color: var(--green);
     cursor: pointer;
 }
 @media (max-width: 991.98px) {
@@ -105,16 +102,16 @@ nav .navbar-brand img {
         width: 102% !important;
     }
     .custom-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
-        color: $gray-700;
+        color: var(--gray-700);
     }
     .custom-navbar-light {
-        background: $green !important;
+        background: var(--green) !important;
         top: 0;
         padding-bottom: 14px !important;
     }
 
     .custom-navbar-light .row:first-of-type {
-        background: $green !important;
+        background: var(--green) !important;
     }
     .custom-navbar-light .navbar-nav {
         padding-bottom: 10px;

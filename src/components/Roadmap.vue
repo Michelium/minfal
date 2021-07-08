@@ -58,7 +58,7 @@
                                     <h4>Toekomst</h4>
                                     <hr>
                                     <img src="@/assets/images/roadmap/5.png" alt="">
-                                    <p>Ontwikkeling circulaire <br>verpakkingssysteem in <br>amusementssector, verder <br>verhogen afvalreductie </p>
+                                    <p>Ontwikkeling circulair <br>verpakkingssysteem in <br>amusementssector, verder <br>verhogen afvalreductie </p>
                                 </div>
                             </div>
                         </div>

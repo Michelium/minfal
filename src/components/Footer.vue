@@ -10,7 +10,7 @@
                                 <h2 class="text-primary fw-bolder mt-3">Contact</h2>
                                 <p>U kunt contact met ons opnemen via: <br><a href="mailto:info@minfal.nl" class="text-primary text-decoration-none">info@minfal.nl</a></p>
                                 <p class="mt-5">KVK nr. 83173862</p>
-                                <p class="terms">
+                                <p class="terms mb-5">
                                     <a href="documents/Algemene_voorwaarden.pdf" target="_blank" class="text-primary text-decoration-none">Algemene voorwaarden</a>
                                 </p>
                                 <a href="https://www.linkedin.com/company/minfal-b-v" target="_blank" type="button" class="btn btn-labeled btn-success">
@@ -113,6 +113,7 @@ export default {
         padding-bottom: 0;
         border-radius: 5px;
         height: 50px;
+        min-height: 50px;
         color: var(--dark);
         font-weight: bolder;
     }
