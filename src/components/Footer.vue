@@ -9,6 +9,7 @@
                             <div class="col-12">
                                 <h2 class="text-primary fw-bolder mt-3">Contact</h2>
                                 <p>U kunt contact met ons opnemen via: <br><a href="mailto:info@minfal.nl" class="text-primary text-decoration-none">info@minfal.nl</a></p>
+                                <p>Telefonisch via <a class="text-primary text-decoration-none" href="tel:0702042640">070-2042640</a><br>van 09:00 - 17:00</p>
                                 <p class="mt-5">KVK nr. 83173862</p>
                                 <p class="terms mb-5">
                                     <a href="documents/Algemene_voorwaarden.pdf" target="_blank" class="text-primary text-decoration-none">Algemene voorwaarden</a>
