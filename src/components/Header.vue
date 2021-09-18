@@ -1,6 +1,6 @@
 <template>
     <section>
-        <nav class="navbar navbar-expand-lg navbar-light custom_navbar custom-navbar-light mx-0 px-0 pt-2 pb-0 mb-2 mb-sm-5 navbar-fixed-top" id="custom-navbar">
+        <nav class="navbar navbar-expand-lg navbar-light custom_navbar custom-navbar-light mx-0 px-0 pt-2 pb-0 mb-2 mb-sm-5 navbar-fixed-top scrolled" id="custom-navbar">
             <div class="container-fluid">
                 <button class="navbar-toggler float-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -13,7 +13,8 @@
                                 <li class="nav-item"><a @click="scrollTo('#innovation', -160)" class="nav-link">MINFAL</a></li>
                                 <li class="nav-item"><a @click="scrollTo('#process', -150)" class="nav-link">Onze werkwijze</a></li>
                                 <li class="nav-item"><a @click="scrollTo('#projects', -160)" class="nav-link">Projecten</a></li>
-                                <li class="nav-item"><a @click="scrollTo('#contact', -190)" class="nav-link">Contact/informatie</a></li>
+                                <li class="nav-item"><a @click="scrollTo('#contact', -170)" class="nav-link">De missie</a></li>
+                                <li class="nav-item"><a @click="scrollTo('#footer', -190)" class="nav-link">Contact</a></li>
                             </ul>
                         </div>
                     </div>
@@ -39,24 +40,6 @@ export default {
         }
     },
 }
-
-import jQuery from "jquery";
-
-const $ = jQuery;
-window.$ = $;
-
-$(window).on('scroll', function () {
-    var navbar = $('.navbar');
-
-    var scroll_position = $(window).scrollTop();
-
-    if (scroll_position > 0) {
-        $(navbar).addClass('scrolled');
-    } else if (scroll_position == 0) {
-        $(navbar).removeClass('scrolled');
-    }
-});
-
 </script>
 
 <style scoped>

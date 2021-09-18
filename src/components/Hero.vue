@@ -2,15 +2,17 @@
     <section id="hero">
         <div class="row mx-0">
             <div class="col-12 col-md-5 offset-md-1 offset-lg-1 col-xl-5 offset-xl-2 text-section">
-                <h1 class="text-primary">MINFAL</h1>
-                <h2 class="text-white">Omzetverhoging met <br>Afvalreductie</h2>
+                <h2 class="text-white fw-bolder">Omzetverhoging met <br>Afvalreductie</h2>
                 <a class="btn btn-outline-primary mt-md-5" @click="scrollTo('#innovation', -160)">ONTDEK</a>
+                <a href="https://www.linkedin.com/company/minfal-b-v" target="_blank" type="button" class="linkedin">
+                    <img src="@/assets/images/linkedin-app.svg" alt="LinkedIn">
+                </a>
             </div>
         </div>
     </section>
 </template>
 
-<style scoped lang="scss">
+<style scoped>
 section {
     background-image: url("~@/assets/images/hero_1920x.jpg");
     background-size: cover;
@@ -24,14 +26,21 @@ div {
     position: relative;
 }
 
-h3 {
-    color: #B43C39;
-    font-weight: lighter;
+h2 {
+    font-size: 48px!important;
 }
 
 img {
     margin-top: 120px;
     width: 95%;
+}
+.linkedin {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+}
+.linkedin img {
+    width: 45px;
 }
 
 @media (max-width: 500px) {
