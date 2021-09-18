@@ -34,24 +34,37 @@ img {
     margin-top: 120px;
     width: 95%;
 }
-.linkedin {
+
+.linkedin img {
     position: fixed;
+    width: 45px;
     right: 30px;
     bottom: 30px;
-}
-.linkedin img {
-    width: 45px;
 }
 
 @media (max-width: 500px) {
     h1 {
         font-size: 45px;
     }
+
+    h2 {
+        font-size: 28px!important;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 767px) {
+    h2 {
+        font-size: 37px!important;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 990px) {
     .text-section {
         margin-top: 150px;
+    }
+
+    h2 {
+        font-size: 34px!important;
     }
 }
 
