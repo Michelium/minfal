@@ -91,7 +91,7 @@ video {
     z-index: 500;
     min-height: 305px;
     width: 545px;
-    background-color: #98B386;
+    background-color: #587458;
     opacity: 0;
     pointer-events: none;
 }

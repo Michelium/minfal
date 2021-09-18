@@ -20,6 +20,11 @@ section {
     background-repeat: no-repeat;
     min-height: 100vh;
 }
+@media (max-width: 767px) {
+    section {
+        background-image: url("~@/assets/images/hero_mobile.jpg");
+    }
+}
 
 div {
     line-height: 0.8;
