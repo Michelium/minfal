@@ -20,10 +20,16 @@
                         <div class="row">
                             <div class="col-6 text-center">
                                 <img src="@/assets/images/video.svg" alt="Video">
-                                <h4 class="mt-3">Wilt u een ook een geanimeerde promotiefilm voor uw product?</h4>
                             </div>
                             <div class="col-6 text-center">
-                                <img class="logo" src="@/assets/images/logo.jpg" alt="Minfal">
+                                <img class="logo" src="@/assets/images/logo_transparent.png" alt="Minfal">
+                            </div>
+                        </div>
+                        <div class="row text-center">
+                            <div class="col-6">
+                                <h4 class="mt-3">Wilt u een ook een geanimeerde promotiefilm voor uw product?</h4>
+                            </div>
+                            <div class="col-6">
                                 <h4 class="mt-3">Neem dan contact op via info@minfal.nl</h4>
                             </div>
                         </div>
@@ -91,7 +97,7 @@ video {
     z-index: 500;
     min-height: 305px;
     width: 545px;
-    background-color: #587458;
+    background-color: #436041;
     opacity: 0;
     pointer-events: none;
 }
@@ -110,6 +116,7 @@ video {
     color: var(--dark);
     font-weight: bolder;
     padding: 0 10px;
+    font-size: 20px;
 }
 
 #video-button {

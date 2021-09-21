@@ -38,7 +38,7 @@
                                     <h4>Q3 2021</h4>
                                     <hr>
                                     <img src="@/assets/images/roadmap/3.png" alt="">
-                                    <p>Amusementssector <br>aangeboord, realisatie  <br>herbruikbare popcornbak</p>
+                                    <p>Amusementssector <br>aangeboord, ontwerp-  <br>optimalisatie</p>
                                 </div>
                             </div>
                         </div>
@@ -109,7 +109,7 @@ export default {
 }
 </script>
 
-<style scoped lang="scss">
+<style scoped>
 .main-row {
     padding-top: 80px;
 }
@@ -135,7 +135,7 @@ export default {
     height: 0;
     border-style: solid;
     border-width: 0 0 120px 120px;
-    border-color: transparent transparent $light transparent;
+    border-color: transparent transparent #262626 transparent;
 }
 
 .title-box:after {
@@ -150,7 +150,7 @@ export default {
     height: 0;
     border-style: solid;
     border-width: 120px 0 0 120px;
-    border-color: transparent transparent transparent $light;
+    border-color: transparent transparent transparent #262626;
 }
 
 @media (max-width: 433px) {
@@ -191,7 +191,7 @@ export default {
     height: calc(20vw * 0.86);
     margin-bottom: 30px;
 
-    background: $primary;
+    background: #587458;
 
     -webkit-clip-path: polygon(25% 0, 75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%);
     clip-path: polygon(25% 0, 75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%);
@@ -203,7 +203,7 @@ export default {
     left: 5px;
     right: 5px;
     bottom: 5px;
-    background: $black;
+    background: #191919;
     -webkit-clip-path: polygon(25% 0, 75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%);
     clip-path: polygon(25% 0, 75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%);
 }
@@ -223,14 +223,14 @@ export default {
     width: 12rem;
     text-align: center;
     margin: 0 auto;
-    color: $secondary;
+    color: #bfd9a8;
     border: 2px solid #bfd9a8 !important;
 }
 
 .hexagon .inside img {
     position: relative;
     display: block;
-    width: 35%;
+    width: 30%;
     height: auto;
     margin: 0 auto;
     text-align: center;
@@ -242,6 +242,7 @@ export default {
     text-align: center;
     margin: 0 auto;
     top: 19%;
+    font-size: 1.2em;
 }
 
 @media (min-width: 1648px) and (max-width: 2016px) {
