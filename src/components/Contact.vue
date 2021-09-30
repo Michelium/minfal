@@ -1,5 +1,5 @@
 <template>
-    <section id="contact">
+    <section class="d-none d-md-block"  id="contact">
         <div class="row mx-auto">
             <div class="col-12 col-lg-10 offset-lg-1 col-xl-3 offset-xl-2">
                 <h2 class="text-primary fw-bolder">Neem contact op</h2>

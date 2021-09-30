@@ -1,5 +1,5 @@
 <template>
-    <section id="roadmap">
+    <section class="d-none d-md-block" id="roadmap">
         <div class="row mx-0">
             <div class="col-6 offset-3 col-md-8 offset-md-2 col-lg-6 offset-lg-3 col-xl-4 offset-xl-4 col-xxl-2 offset-xxl-5 triangle">
                 <div class="title-box bg-light text-center">

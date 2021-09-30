@@ -1,11 +1,11 @@
 <template>
     <section id="footer">
-        <div class="row mx-auto bg-light py-5">
+        <div class="row mx-auto bg-light pb-5 pt-md-5">
             <div class="col-12 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
                 <div class="row">
                     <div class="col-12 col-xl-6 mb-5 mb-xl-0 bg-dark pb-3" id="first">
                         <div class="row">
-                            <div class="col-12 px-5">
+                            <div class="col-12 px-md-5">
                                 <h2 class="text-primary fw-bolder mt-3">Contact</h2>
                                 <div class="row mt-2 mt-md-4">
                                     <div class="col-12 col-md-6">
@@ -15,7 +15,7 @@
 
                                     </div>
                                     <div class="col-12 col-md-6">
-                                        <img src="@/assets/images/office_outside.png" alt="Office" class="w-100">
+                                        <img src="@/assets/images/office_outside.jpg" alt="Office" class="w-100">
                                         <p class="text-muted mt-2">Bezoek op afspraak</p>
                                     </div>
                                 </div>
@@ -29,7 +29,7 @@
                             <div class="col-6"></div>
                         </div>
                     </div>
-                    <div class="col-12 col-xl-4 offset-xl-1 mb-5 mb-xl-0">
+                    <div class="col-12 col-xl-4 offset-xl-1 mb-5 mb-xl-0 d-none d-md-inline-block">
                         <div class="row">
                             <div class="col-12">
                                 <h2 class="text-primary fw-bolder mt-2">Duurzaamheid</h2>
@@ -66,20 +66,12 @@ h4 {
     font-size: 18px;
 }
 
-/*#first {*/
-/*    height: 450px;*/
-/*}*/
-
 img.devices {
     margin-top: 45px;
 }
 
 .btn-label img {
     width: 35px;
-}
-
-.terms {
-    padding-top: 15px;
 }
 
 .icon {
@@ -95,18 +87,5 @@ img.devices {
 .copyright {
     position: relative;
     top: 50%;
-}
-
-@media (max-width: 1200px) {
-    .goals {
-        width: 100% !important;
-    }
-}
-
-@media (min-width: 1200px) {
-    .goals {
-        min-height: 75px;
-        min-width: 75px;
-    }
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-    <section id="process">
+    <section class="d-none d-md-block"  id="process">
         <div class="row mx-auto">
             <div class="col-12 col-lg-10 offset-lg-1 col-xl-4 offset-xl-2">
                 <img class=" text-center mx-auto mx-xl-0" src="@/assets/images/process.png" alt="Werkwijze">

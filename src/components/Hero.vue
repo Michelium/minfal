@@ -3,7 +3,7 @@
         <div class="row mx-0">
             <div class="col-12 col-md-5 offset-md-1 offset-lg-1 col-xl-5 offset-xl-2 text-section">
                 <h2 class="text-white fw-bolder">Omzetverhoging met <br>Afvalreductie</h2>
-                <a class="btn btn-outline-primary mt-md-5 discover-button" @click="scrollTo('#innovation', -160)">ONTDEK</a>
+                <a class="btn btn-outline-primary mt-3 mt-md-5 discover-button" @click="scrollTo('#innovation', -160)">ONTDEK</a>
                 <a href="https://www.linkedin.com/company/minfal-b-v" target="_blank" type="button" class="linkedin">
                     <img src="@/assets/images/linkedin-app.svg" alt="LinkedIn">
                 </a>

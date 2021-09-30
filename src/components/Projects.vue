@@ -68,20 +68,14 @@ export default {
 section {
     margin-bottom: 160px;
 }
-
 @media (max-width: 1200px) {
     section {
         margin-bottom: 80px;
     }
 }
-
-h2 {
-    font-size: 36px;
-}
-
-@media (max-width: 578px) {
-    h2 {
-        font-size: 33px;
+@media (max-width: 768px) {
+    section {
+        margin-bottom: unset;
     }
 }
 

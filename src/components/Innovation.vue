@@ -17,11 +17,11 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-lg-10 offset-lg-1 col-xl-4 offset-xl-0 col-xxl-4 offset-xxl-1 order-1 order-xl-5 mb-4 mb-xl-0 mt-xl-5 ">
+            <div class="col-12 col-lg-10 offset-lg-1 col-xl-4 offset-xl-0 col-xxl-4 offset-xxl-1 order-1 order-xl-5 mb-4 mb-xl-0 mt-xl-5">
                 <h2 class="text-primary fw-bolder">Innovatie is onze kracht</h2>
-                <p class="mt-3">Wij verzorgen het totale plaatje, van idee tot realisatie. Wij helpen u in het reduceren van restafval door het ontwikkelen van herbruikbare verpakkingen. Wij zorgen dat dure wegwerpverpakkingen tot de verleden tijd behoren. Zo
+                <p class="mt-3 d-none d-md-inline-block">Wij verzorgen het totale plaatje, van idee tot realisatie. Wij helpen u in het reduceren van restafval door het ontwikkelen van herbruikbare verpakkingen. Wij zorgen dat dure wegwerpverpakkingen tot de verleden tijd behoren. Zo
                     heeft uw bedrijf geen last van het toekomstige verbod op wegwerpverpakkingen en wordt uw duurzaamheidsimago verhoogd.</p>
-                <a class="btn btn-outline-primary mt-md-3" @click="scrollTo('#process', -150)">ONZE WERKWIJZE</a>
+                <a class="btn btn-outline-primary mt-md-3 d-none d-md-inline-block" @click="scrollTo('#process', -150)">ONZE WERKWIJZE</a>
             </div>
         </div>
     </section>
@@ -44,6 +44,11 @@ export default {
 <style scoped>
 section {
     margin: 170px 0 100px 0;
+}
+@media (max-width: 578px) {
+    section {
+        margin: 30px 0;
+    }
 }
 
 img {
