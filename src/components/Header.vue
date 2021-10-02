@@ -10,10 +10,10 @@
                         <div class="collapse navbar-collapse me-auto" id="navbarTogglerDemo01">
                             <ul class="navbar-nav ms-auto">
                                 <li class="nav-item"><a @click="scrollTo('#hero')" class="nav-link">Home</a></li>
-                                <li class="nav-item"><a @click="scrollTo('#innovation', -160)" class="nav-link">MINFAL</a></li>
-                                <li class="nav-item"><a @click="scrollTo('#process', -150)" class="nav-link">Onze werkwijze</a></li>
+                                <li class="nav-item d-none d-lg-block"><a @click="scrollTo('#innovation', -160)" class="nav-link">MINFAL</a></li>
+                                <li class="nav-item d-none d-lg-block"><a @click="scrollTo('#process', -150)" class="nav-link">Onze werkwijze</a></li>
                                 <li class="nav-item"><a @click="scrollTo('#projects', -160)" class="nav-link">Projecten</a></li>
-                                <li class="nav-item"><a @click="scrollTo('#contact', -170)" class="nav-link">De missie</a></li>
+                                <li class="nav-item d-none d-lg-block"><a @click="scrollTo('#contact', -170)" class="nav-link">De missie</a></li>
                                 <li class="nav-item"><a @click="scrollTo('#footer', -190)" class="nav-link">Contact</a></li>
                             </ul>
                         </div>
@@ -24,6 +24,7 @@
         <div class="d-none">
             <span>popcorn</span>
             <span>hergebruik</span>
+            <span>Herbruikbare popcornbak, popcornbak, popcornbeker, herbruikbare popcornbeker, pathe popcorn, pathé, popcornbak pathé, pathé popcornbak, pathé herbruikbare popcornbak, popcornverpakking, herbruikbare popcornverpakking, herbruikbaar, herbruikbaar popcornbak, reuasable popcorn bucket, popcorn refill, refill popcornbak, merchandise popcornbak, all-stars, all-stars popcornbak, all-stars herbruikbaar, rCup, pathe unlimited, pathe unlimited popcornbak, pathe unlimited Gold popcornbak, popcornbeker korting, popcornbak duurzaam, duurzame popcornbak, pathe duurzaam, pathe duurzame popcornbak, duurzame herbruikbare popcornbak, kunststof popcornbak, minval, minval popcorn, minfall, minval popcornbak, minval herbruikbaar, minval herbruikbare popcornbak, meerval, meerval popcorn, meerval popcornbak, innovatieve popcornbak, innovatie, innovatief, minfal popcornbak, minfal herbruikbaar, minfal pathe, pathe minfal, dopper, popcornbak speciaal, speciale popcornbak, popcornbak bedrukt, bedrukte popcornbak, popcornbeker duurzaam, duurzaam, hergebruik, popcorn, nieuwe popcornbak, popcorn pas, popcorn korting, refill korting, minfal korting, minfal popcorn, circulair, circulaire, circulaire popcornbak, circulaire popcornbeker, popcorn 2022, 2021, kinepolis popcorn, vué popcornbak, popcorn disney, disney merchandise, popcornbak frozen, </span>
         </div>
     </section>
 </template>
@@ -80,13 +81,16 @@ nav .navbar-brand img {
     color: var(--green);
     cursor: pointer;
 }
+
 @media (max-width: 991.98px) {
     .row {
         width: 102% !important;
     }
+
     .custom-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
         color: var(--gray-700);
     }
+
     .custom-navbar-light {
         background: var(--green) !important;
         top: 0;
@@ -96,9 +100,11 @@ nav .navbar-brand img {
     .custom-navbar-light .row:first-of-type {
         background: var(--green) !important;
     }
+
     .custom-navbar-light .navbar-nav {
         padding-bottom: 10px;
     }
+
     .custom-navbar-light .navbar-nav > .nav-item > .nav-link {
         padding: .5em .9em;
         text-align: start;

@@ -1,9 +1,9 @@
 <template>
     <section id="footer">
-        <div class="row mx-auto bg-light pb-5 pt-md-5">
+        <div class="row mx-auto bg-light pb-2 pb-md-5 pt-md-5">
             <div class="col-12 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
                 <div class="row">
-                    <div class="col-12 col-xl-6 mb-5 mb-xl-0 bg-dark pb-3" id="first">
+                    <div class="col-12 col-xl-6 mb-2 mb-md-5 mb-xl-0 bg-dark pb-3" id="first">
                         <div class="row">
                             <div class="col-12 px-md-5">
                                 <h2 class="text-primary fw-bolder mt-3">Contact</h2>
@@ -12,7 +12,6 @@
                                         <p class="text-primary"><i class="bi bi-envelope icon"></i> <a href="mailto:info@minfal.nl" class="text-white text-decoration-none link">info@minfal.nl</a></p>
                                         <p class="text-primary"><i class="bi bi-telephone icon"></i> <a href="tel:0702042640" class="text-white text-decoration-none link">070-2042640</a></p>
                                         <p class="text-primary"><i class="bi bi-pin-map icon"></i> <a href="https://www.google.nl/maps/place/Turfschipper+62,+2292+JB+Wateringen" target="_blank" class="text-white text-decoration-none link">Turfschipper 62, 2292 JB, Wateringen</a></p>
-
                                     </div>
                                     <div class="col-12 col-md-6">
                                         <img src="@/assets/images/office_outside.jpg" alt="Office" class="w-100">
@@ -86,6 +85,7 @@ img.devices {
 
 .copyright {
     position: relative;
-    top: 50%;
+    top: 40%;
+    padding-bottom: 20px;
 }
 </style>

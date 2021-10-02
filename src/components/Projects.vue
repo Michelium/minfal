@@ -27,7 +27,7 @@
                         </div>
                         <div class="row text-center">
                             <div class="col-6">
-                                <h4 class="mt-3">Wilt u een ook een geanimeerde promotiefilm voor uw product?</h4>
+                                <h4 class="mt-3">Wilt u ook een geanimeerde promotiefilm voor uw product?</h4>
                             </div>
                             <div class="col-6">
                                 <h4 class="mt-3">Neem dan contact op via info@minfal.nl</h4>
