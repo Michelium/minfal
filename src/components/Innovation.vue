@@ -21,6 +21,7 @@
                 <h2 class="text-primary fw-bolder">Innovatie is onze kracht</h2>
                 <p class="mt-3 d-none d-md-inline-block">Wij verzorgen het totale plaatje, van idee tot realisatie. Wij helpen u in het reduceren van restafval door het ontwikkelen van herbruikbare verpakkingen. Wij zorgen dat dure wegwerpverpakkingen tot de verleden tijd behoren. Zo
                     heeft uw bedrijf geen last van het toekomstige verbod op wegwerpverpakkingen en wordt uw duurzaamheidsimago verhoogd.</p>
+                <p>Ook is Minfal bezig met het creëren van een ondernemersplatform. Op dit platform zijn ondernemers die zich inzetten voor het reduceren van verpakkingsafval voor de consument zichtbaar.</p>
                 <a class="btn btn-outline-primary mt-md-3 d-none d-md-inline-block" @click="scrollTo('#process', -150)">ONZE WERKWIJZE</a>
             </div>
         </div>
