@@ -4,7 +4,7 @@
             <div class="col-6 offset-3 col-md-8 offset-md-2 col-lg-6 offset-lg-3 col-xl-4 offset-xl-4 col-xxl-2 offset-xxl-5 triangle">
                 <div class="title-box bg-light text-center">
                     <h2 class="text-primary fw-bolder title">Roadmap</h2>
-                    <h3 class="fw-bolder sub-title">De toekomst met Minfal</h3>
+                    <h3 class="fw-bolder sub-title">In 2022 met Minfal</h3>
                 </div>
             </div>
         </div>
@@ -18,7 +18,8 @@
                                     <h4>Q1 2021</h4>
                                     <hr>
                                     <img src="@/assets/images/roadmap/1.png" alt="">
-                                    <p>Oprichting Minfal <br>met één missie: <br>reduceren van <br>verpakkingsafval</p>
+                                    <p style="font-size: 22px" class="fw-bolder">Oprichting</p>
+                                    <p>Oprichting Minfal met één <br>missie: reduceren van <br>verpakkingsafval.</p>
                                 </div>
                             </div>
                         </div>
@@ -28,7 +29,8 @@
                                     <h4>Q2 2021</h4>
                                     <hr>
                                     <img src="@/assets/images/roadmap/2.png" alt="">
-                                    <p>Eerste product: <br>herbruikbare popcornbak. <br>Gesprekken met potentiële <br>klanten</p>
+                                    <p style="font-size: 22px" class="fw-bolder">Ontwikkeling</p>
+                                    <p>Herbruikbare Popcornbak.</p>
                                 </div>
                             </div>
                         </div>
@@ -38,7 +40,8 @@
                                     <h4>Q3 2021</h4>
                                     <hr>
                                     <img src="@/assets/images/roadmap/3.png" alt="">
-                                    <p>Amusementssector <br>aangeboord, ontwerp-  <br>optimalisatie</p>
+                                    <p style="font-size: 22px" class="fw-bolder">Optimalisatie</p>
+                                    <p>Ontwerp-optimalisatie.</p>
                                 </div>
                             </div>
                         </div>
@@ -48,47 +51,48 @@
                                     <h4>Q4 2021</h4>
                                     <hr>
                                     <img src="@/assets/images/roadmap/4.png" alt="">
-                                    <p>Productoptimalisatie en<br>realiseren productie, <br>diverse productvarianten<br>realiseren</p>
+                                    <p style="font-size: 22px" class="fw-bolder">Ontwikkeling platform</p>
+                                    <p>Het duurzame platform van <br>Minfal.</p>
                                 </div>
                             </div>
                         </div>
                         <div class="mx-auto slider-slide">
                             <div class="hexagon">
                                 <div class="inside">
-                                    <h4>Toekomst</h4>
+                                    <h4>Q1 2022</h4>
                                     <hr>
                                     <img src="@/assets/images/roadmap/5.png" alt="">
-                                    <p>Ontwikkeling circulair <br>verpakkingssysteem in <br>amusementssector, verder <br>verhogen afvalreductie </p>
+                                    <p class="fw-bolder" style="font-size: 22px">Productiefase</p><p>Realisatie eerste producten.</p>
                                 </div>
                             </div>
                         </div>
                         <div class="mx-auto slider-slide">
                             <div class="hexagon">
                                 <div class="inside">
-                                    <h4>Toekomst</h4>
+                                    <h4>Q2 2022</h4>
                                     <hr>
                                     <img src="@/assets/images/roadmap/6.png" alt="">
-                                    <p>Nieuwe producten  <br>realiseren en uitbreiding  <br>naar nieuwe sectoren</p>
+                                    <p class="fw-bolder" style="font-size: 22px">Lancering</p><p>Lancering van de producten en <br>het ondernemersplatform.</p>
                                 </div>
                             </div>
                         </div>
                         <div class="mx-auto slider-slide">
                             <div class="hexagon">
                                 <div class="inside">
-                                    <h4>Toekomst</h4>
+                                    <h4>Q3 2022</h4>
                                     <hr>
                                     <img src="@/assets/images/roadmap/7.png" alt="">
-                                    <p>Internationale markt <br>betreden en voorzien van  <br>herbruikbare producten en <br>circulaire systemen</p>
+                                    <p class="fw-bolder" style="font-size: 22px">Groeifase</p><p>De consument maakt kennis <br>met de Minfal-kwaliteit.</p>
                                 </div>
                             </div>
                         </div>
                         <div class="mx-auto slider-slide">
                             <div class="hexagon">
                                 <div class="inside">
-                                    <h4>Toekomst</h4>
+                                    <h4>Q4 2022</h4>
                                     <hr>
                                     <img src="@/assets/images/roadmap/8.png" alt="">
-                                    <p>Einde <br>wegwerpverpakkingen,<br>ondersteund door wet- en<br>regelgevingen, <br>doorontwikkeling Minfal</p>
+                                    <p class="fw-bolder" style="font-size: 22px">Testfase</p><p>Minfal test een nieuw systeem <br>voor 0% verpakkingsafval.</p>
                                 </div>
                             </div>
                         </div>

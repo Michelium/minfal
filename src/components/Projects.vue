@@ -5,7 +5,7 @@
                 <h2 class="text-primary mb-2 fw-bolder">Huidige projecten</h2>
                 <h3 class="fw-bolder text-white">Duurzaam en chique</h3>
                 <p class="mb-5 mt-3">Minfal focust zich momenteel op het introduceren van herbruikbare verpakkingen in de amusementssector. Minfal heeft een circulair verpakkingssysteem ontworpen voor bioscopen. Het eerste product van Minfal is de
-                    herbruikbare popcornbak, in een nieuwe chique uitstraling. In de video hiernaast is de werking van het circulaire verpakkingssysteem visueel te aanschouwen.
+                    herbruikbare popcornbak, in een nieuwe chique uitstraling.
                 </p>
                 <h3 class="text-white fw-bolder mt-4">Waar staan wij voor open?</h3>
                 <p>Mocht u zich afvragen: Wat kan Minfal voor mijn bedrijf betekenen? We zijn gemotiveerd om u te helpen en mee te denken. We bekijken snel de mogelijkheden en kunnen meteen aan de slag! <br><br>
@@ -13,9 +13,10 @@
             </div>
             <div class="col-12 col-md-5 col-lg-10 offset-lg-1 col-xl-3 my-auto">
                 <div id="video-box w-100">
-                    <div id="video-button" @click="toggleOverlay">
-                        <img src="@/assets/images/information.svg" alt="Info">
-                    </div>
+                    <img src="@/assets/images/thumbnail.jpeg" alt="" class="w-100">
+<!--                    <div id="video-button" @click="toggleOverlay">-->
+<!--                        <img src="@/assets/images/information.svg" alt="Info">-->
+<!--                    </div>-->
                     <div id="video-overlay">
                         <div class="row">
                             <div class="col-6 text-center">
@@ -27,17 +28,17 @@
                         </div>
                         <div class="row text-center">
                             <div class="col-6">
-                                <h4 class="mt-3">Wilt u een ook een geanimeerde promotiefilm voor uw product?</h4>
+                                <h4 class="mt-3">Wilt u ook een geanimeerde promotiefilm voor uw product?</h4>
                             </div>
                             <div class="col-6">
                                 <h4 class="mt-3">Neem dan contact op via info@minfal.nl</h4>
                             </div>
                         </div>
                     </div>
-                    <video controls>
-                        <source src="video/promotionvideo.mp4#t=0.001" type="video/mp4">
-                        Uw browser kan onze promotievideo helaas niet laden.
-                    </video>
+<!--                    <video controls>-->
+<!--                        <source src="video/promotionvideo.mp4#t=0.001" type="video/mp4">-->
+<!--                        Uw browser kan onze promotievideo helaas niet laden.-->
+<!--                    </video>-->
                 </div>
             </div>
         </div>

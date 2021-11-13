@@ -19,7 +19,7 @@ function init() {
 function initSlickCarousel() {
     $('.slick-carousel').slick({
         // edgeFriction: 0,
-        initialSlide: 2,
+        initialSlide: 3,
         infinite: false,
         slidesToShow: 4,
         slidesToScroll: 1,
