@@ -21,11 +21,6 @@
                 </div>
             </div>
         </nav>
-        <div class="d-none">
-            <span>popcorn</span>
-            <span>hergebruik</span>
-            <span>Herbruikbare popcornbak, popcornbak, popcornbeker, herbruikbare popcornbeker, pathe popcorn, pathé, popcornbak pathé, pathé popcornbak, pathé herbruikbare popcornbak, popcornverpakking, herbruikbare popcornverpakking, herbruikbaar, herbruikbaar popcornbak, reuasable popcorn bucket, popcorn refill, refill popcornbak, merchandise popcornbak, all-stars, all-stars popcornbak, all-stars herbruikbaar, rCup, pathe unlimited, pathe unlimited popcornbak, pathe unlimited Gold popcornbak, popcornbeker korting, popcornbak duurzaam, duurzame popcornbak, pathe duurzaam, pathe duurzame popcornbak, duurzame herbruikbare popcornbak, kunststof popcornbak, minval, minval popcorn, minfall, minval popcornbak, minval herbruikbaar, minval herbruikbare popcornbak, meerval, meerval popcorn, meerval popcornbak, innovatieve popcornbak, innovatie, innovatief, minfal popcornbak, minfal herbruikbaar, minfal pathe, pathe minfal, dopper, popcornbak speciaal, speciale popcornbak, popcornbak bedrukt, bedrukte popcornbak, popcornbeker duurzaam, duurzaam, hergebruik, popcorn, nieuwe popcornbak, popcorn pas, popcorn korting, refill korting, minfal korting, minfal popcorn, circulair, circulaire, circulaire popcornbak, circulaire popcornbeker, popcorn 2022, 2021, kinepolis popcorn, vué popcornbak, popcorn disney, disney merchandise, popcornbak frozen, </span>
-        </div>
     </section>
 </template>
 

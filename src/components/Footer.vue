@@ -65,6 +65,10 @@ h4 {
     font-size: 18px;
 }
 
+a:hover {
+    color: var(--primary)!important;
+}
+
 img.devices {
     margin-top: 45px;
 }

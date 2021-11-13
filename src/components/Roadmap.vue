@@ -18,7 +18,7 @@
                                     <h4>Q1 2021</h4>
                                     <hr>
                                     <img src="@/assets/images/roadmap/1.png" alt="">
-                                    <p style="font-size: 22px" class="fw-bolder">Oprichting</p>
+                                    <p class="fw-bolder sub-title">Oprichting</p>
                                     <p>Oprichting Minfal met één <br>missie: reduceren van <br>verpakkingsafval.</p>
                                 </div>
                             </div>
@@ -29,7 +29,7 @@
                                     <h4>Q2 2021</h4>
                                     <hr>
                                     <img src="@/assets/images/roadmap/2.png" alt="">
-                                    <p style="font-size: 22px" class="fw-bolder">Ontwikkeling</p>
+                                    <p class="fw-bolder sub-title">Ontwikkeling</p>
                                     <p>Herbruikbare Popcornbak.</p>
                                 </div>
                             </div>
@@ -40,7 +40,7 @@
                                     <h4>Q3 2021</h4>
                                     <hr>
                                     <img src="@/assets/images/roadmap/3.png" alt="">
-                                    <p style="font-size: 22px" class="fw-bolder">Optimalisatie</p>
+                                    <p class="fw-bolder sub-title">Optimalisatie</p>
                                     <p>Ontwerp-optimalisatie.</p>
                                 </div>
                             </div>
@@ -51,7 +51,7 @@
                                     <h4>Q4 2021</h4>
                                     <hr>
                                     <img src="@/assets/images/roadmap/4.png" alt="">
-                                    <p style="font-size: 22px" class="fw-bolder">Ontwikkeling platform</p>
+                                    <p class="fw-bolder sub-title">Ontwikkeling platform</p>
                                     <p>Het duurzame platform van <br>Minfal.</p>
                                 </div>
                             </div>
@@ -62,7 +62,8 @@
                                     <h4>Q1 2022</h4>
                                     <hr>
                                     <img src="@/assets/images/roadmap/5.png" alt="">
-                                    <p class="fw-bolder" style="font-size: 22px">Productiefase</p><p>Realisatie eerste producten.</p>
+                                    <p class="fw-bolder sub-title">Productiefase</p>
+                                    <p>Realisatie eerste producten.</p>
                                 </div>
                             </div>
                         </div>
@@ -72,7 +73,8 @@
                                     <h4>Q2 2022</h4>
                                     <hr>
                                     <img src="@/assets/images/roadmap/6.png" alt="">
-                                    <p class="fw-bolder" style="font-size: 22px">Lancering</p><p>Lancering van de producten en <br>het ondernemersplatform.</p>
+                                    <p class="fw-bolder sub-title">Lancering</p>
+                                    <p>Lancering van de producten en <br>het ondernemersplatform.</p>
                                 </div>
                             </div>
                         </div>
@@ -82,7 +84,8 @@
                                     <h4>Q3 2022</h4>
                                     <hr>
                                     <img src="@/assets/images/roadmap/7.png" alt="">
-                                    <p class="fw-bolder" style="font-size: 22px">Groeifase</p><p>De consument maakt kennis <br>met de Minfal-kwaliteit.</p>
+                                    <p class="fw-bolder sub-title">Groeifase</p>
+                                    <p>De consument maakt kennis <br>met de Minfal-kwaliteit.</p>
                                 </div>
                             </div>
                         </div>
@@ -92,7 +95,8 @@
                                     <h4>Q4 2022</h4>
                                     <hr>
                                     <img src="@/assets/images/roadmap/8.png" alt="">
-                                    <p class="fw-bolder" style="font-size: 22px">Testfase</p><p>Minfal test een nieuw systeem <br>voor 0% verpakkingsafval.</p>
+                                    <p class="fw-bolder sub-title">Testfase</p>
+                                    <p>Minfal test een nieuw systeem <br>voor 0% verpakkingsafval.</p>
                                 </div>
                             </div>
                         </div>
@@ -249,6 +253,10 @@ export default {
     font-size: 1.2em;
 }
 
+.hexagon .inside .sub-title {
+    font-size: 1.1vw!important;
+}
+
 @media (min-width: 1648px) and (max-width: 2016px) {
     .hexagon .inside p {
         font-size: 13px;
@@ -279,6 +287,9 @@ export default {
     .arrows {
         top: -55%;
     }
+    .hexagon .inside .sub-title {
+        font-size: 1.5vw!important;
+    }
 }
 
 @media (min-width: 401px) and (max-width: 730px) {
@@ -290,6 +301,9 @@ export default {
     }
     .slick-arrow.slick-next-arrow {
         margin-right: unset;
+    }
+    .hexagon .inside .sub-title {
+        font-size: 1.7vw!important;
     }
 }
 
