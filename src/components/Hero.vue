@@ -2,7 +2,7 @@
     <section id="hero">
         <div class="row mx-0">
             <div class="col-12 col-md-5 offset-md-1 offset-lg-1 col-xl-5 offset-xl-2 text-section">
-                <h2 class="text-white fw-bolder">Omzetverhoging met <br>Afvalreductie</h2>
+                <h2 class="text-white fw-bolder">Recyclen is goed. <br><span>Hergebruiken is beter.</span></h2>
                 <a class="btn btn-outline-primary mt-5 mt-md-5 discover-button" @click="scrollTo('#innovation', -160)">ONTDEK</a>
                 <a href="https://www.linkedin.com/company/minfal-b-v" target="_blank" type="button" class="linkedin">
                     <img src="@/assets/images/linkedin-app.svg" alt="LinkedIn">
@@ -36,7 +36,10 @@ div {
 }
 
 h2 {
-    font-size: 48px!important;
+    font-size: 34px!important;
+}
+h2 span {
+    font-size: 42px!important;
 }
 
 img {
