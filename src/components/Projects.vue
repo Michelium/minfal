@@ -2,7 +2,7 @@
     <section id="projects">
         <div class="row mx-auto bg-light py-5">
             <div class="col-12 col-lg-10 offset-lg-1 col-xl-4 offset-xl-2">
-                <h2 class="text-primary mb-2 fw-bolder">Huidige projecten</h2>
+                <h2 class="text-primary mb-2 fw-bolder">Huidige project</h2>
                 <h3 class="fw-bolder text-white">Duurzaam en chique</h3>
                 <p class="mb-5 mt-3">Minfal focust zich momenteel op het introduceren van herbruikbare verpakkingen in de amusementssector. Minfal heeft een circulair verpakkingssysteem ontworpen voor bioscopen. Het eerste product van Minfal is de
                     herbruikbare popcornbak, in een nieuwe chique uitstraling.

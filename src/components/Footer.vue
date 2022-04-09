@@ -11,7 +11,10 @@
                                     <div class="col-12 col-md-6">
                                         <p class="text-primary"><i class="bi bi-envelope icon"></i> <a href="mailto:info@minfal.nl" class="text-white text-decoration-none link">info@minfal.nl</a></p>
                                         <p class="text-primary"><i class="bi bi-telephone icon"></i> <a href="tel:0702042640" class="text-white text-decoration-none link">070-2042640</a></p>
-                                        <p class="text-primary"><i class="bi bi-pin-map icon"></i> <a href="https://www.google.nl/maps/place/Turfschipper+62,+2292+JB+Wateringen" target="_blank" class="text-white text-decoration-none link">Turfschipper 62, 2292 JB, Wateringen</a></p>
+                                        <p class="text-primary">
+                                            <i class="bi bi-pin-map icon"></i>
+                                            <a href="https://www.google.nl/maps/place/Turfschipper+62,+2292+JB+Wateringen" target="_blank" class="text-white text-decoration-none link">
+                                                Turfschipper 62, <br> <span style="margin-left: 40px;">2292 JB Wateringen</span></a></p>
                                     </div>
                                     <div class="col-12 col-md-6">
                                         <img src="@/assets/images/office_outside.jpg" alt="Office" class="w-100">
@@ -40,7 +43,7 @@
                 </div>
             </div>
             <div class="col-12">
-                <p class="copyright align-text-bottom text-center">Copyright © 2021 <a class="text-primary text-decoration-none" @click="scrollTo('#hero')">www.minfal.nl</a> All rights reserved.</p>
+                <p class="copyright align-text-bottom text-center">Copyright © 2022 <a class="text-primary text-decoration-none" @click="scrollTo('#hero')">www.minfal.nl</a> All rights reserved.</p>
             </div>
         </div>
     </section>

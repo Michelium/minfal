@@ -15,7 +15,7 @@
                         <div class="mx-auto slider-slide">
                             <div class="hexagon">
                                 <div class="inside">
-                                    <h4>Q1 2021</h4>
+                                    <h4>Q3 2021</h4>
                                     <hr>
                                     <img src="@/assets/images/roadmap/1.png" alt="">
                                     <p class="fw-bolder sub-title">Oprichting</p>
@@ -26,18 +26,7 @@
                         <div class="mx-auto slider-slide">
                             <div class="hexagon">
                                 <div class="inside">
-                                    <h4>Q2 2021</h4>
-                                    <hr>
-                                    <img src="@/assets/images/roadmap/2.png" alt="">
-                                    <p class="fw-bolder sub-title">Ontwikkeling</p>
-                                    <p>Herbruikbare Popcornbak.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="mx-auto slider-slide">
-                            <div class="hexagon">
-                                <div class="inside">
-                                    <h4>Q3 2021</h4>
+                                    <h4>Q4 2021</h4>
                                     <hr>
                                     <img src="@/assets/images/roadmap/3.png" alt="">
                                     <p class="fw-bolder sub-title">Optimalisatie</p>
@@ -48,10 +37,10 @@
                         <div class="mx-auto slider-slide">
                             <div class="hexagon">
                                 <div class="inside">
-                                    <h4>Q4 2021</h4>
+                                    <h4>Q1 2022</h4>
                                     <hr>
                                     <img src="@/assets/images/roadmap/4.png" alt="">
-                                    <p class="fw-bolder sub-title">Ontwikkeling platform</p>
+                                    <p class="fw-bolder sub-title">Ontwikkeling</p>
                                     <p>Het duurzame platform van <br>Minfal.</p>
                                 </div>
                             </div>
@@ -59,7 +48,7 @@
                         <div class="mx-auto slider-slide">
                             <div class="hexagon">
                                 <div class="inside">
-                                    <h4>Q1 2022</h4>
+                                    <h4>Q2 2022</h4>
                                     <hr>
                                     <img src="@/assets/images/roadmap/5.png" alt="">
                                     <p class="fw-bolder sub-title">Productiefase</p>
@@ -70,7 +59,7 @@
                         <div class="mx-auto slider-slide">
                             <div class="hexagon">
                                 <div class="inside">
-                                    <h4>Q2 2022</h4>
+                                    <h4>Q3 2022</h4>
                                     <hr>
                                     <img src="@/assets/images/roadmap/6.png" alt="">
                                     <p class="fw-bolder sub-title">Lancering</p>
@@ -81,7 +70,7 @@
                         <div class="mx-auto slider-slide">
                             <div class="hexagon">
                                 <div class="inside">
-                                    <h4>Q3 2022</h4>
+                                    <h4>Q4 2022</h4>
                                     <hr>
                                     <img src="@/assets/images/roadmap/7.png" alt="">
                                     <p class="fw-bolder sub-title">Groeifase</p>
@@ -92,7 +81,7 @@
                         <div class="mx-auto slider-slide">
                             <div class="hexagon">
                                 <div class="inside">
-                                    <h4>Q4 2022</h4>
+                                    <h4>Q1 2023</h4>
                                     <hr>
                                     <img src="@/assets/images/roadmap/8.png" alt="">
                                     <p class="fw-bolder sub-title">Testfase</p>

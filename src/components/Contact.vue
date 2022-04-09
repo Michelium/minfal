@@ -2,7 +2,7 @@
     <section class="d-none d-md-block"  id="contact">
         <div class="row mx-auto">
             <div class="col-12 col-lg-10 offset-lg-1 col-xl-3 offset-xl-2">
-                <h2 class="text-primary fw-bolder">Neem contact op</h2>
+                <h2 class="text-primary fw-bolder">Neem contact op </h2>
                 <form class="mt-4" action="" @submit.prevent="sendEmail">
                     <div v-if="success" class="alert alert-success alert-dismissible fade show" role="alert">
                         <p class="text-dark">Uw bericht is verstuurd! We komen zo spoedig mogelijk bij u terug!</p>
