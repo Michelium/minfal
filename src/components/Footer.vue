@@ -1,19 +1,19 @@
 <template>
     <section id="footer">
-        <div class="row mx-auto bg-light pb-2 pb-md-5 pt-md-5">
+        <div class="row mx-auto pb-2 pb-md-5 pt-md-5">
             <div class="col-12 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
                 <div class="row">
-                    <div class="col-12 col-xl-6 mb-2 mb-md-5 mb-xl-0 bg-dark pb-3" id="first">
+                    <div class="col-12 col-xl-6 mb-2 mb-md-5 mb-xl-0 pb-3" id="first">
                         <div class="row">
                             <div class="col-12 px-md-5">
                                 <h2 class="text-primary fw-bolder mt-3">Contact</h2>
                                 <div class="row mt-2 mt-md-4">
                                     <div class="col-12 col-md-6">
-                                        <p class="text-primary"><i class="bi bi-envelope icon"></i> <a href="mailto:info@minfal.nl" class="text-white text-decoration-none link">info@minfal.nl</a></p>
-                                        <a class="text-decoration-none"><i class="bi bi-telephone icon"></i> <a @click="scrollTo('#contact', -170)" class="text-white text-decoration-none link">Terugbelverzoek indienen</a></a>
+                                        <p class="text-primary"><i class="bi bi-envelope icon"></i> <a href="mailto:info@minfal.nl" class="text-decoration-none link">info@minfal.nl</a></p>
+                                        <a class="text-decoration-none"><i class="bi bi-telephone icon"></i> <a @click="scrollTo('#contact', -170)" class=" text-decoration-none link">Terugbelverzoek indienen</a></a>
                                         <p class="text-primary">
                                             <i class="bi bi-pin-map icon"></i>
-                                            <a href="https://www.google.nl/maps/place/Turfschipper+62,+2292+JB+Wateringen" target="_blank" class="text-white text-decoration-none link">
+                                            <a href="https://www.google.nl/maps/place/Turfschipper+62,+2292+JB+Wateringen" target="_blank" class="text-decoration-none link">
                                                 Turfschipper 62, <br> <span style="margin-left: 40px;">2292 JB Wateringen</span></a></p>
                                     </div>
                                     <div class="col-12 col-md-6">
@@ -64,6 +64,9 @@ export default {
 </script>
 
 <style scoped>
+section {
+    background-color: #e2e2e2;
+}
 h4 {
     font-size: 18px;
 }

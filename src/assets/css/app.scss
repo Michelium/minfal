@@ -29,7 +29,7 @@ html {
 }
 
 body {
-  background-color: $black;
+  background-color: $white;
   font-family: 'Open Sans', sans-serif;
   text-rendering: optimizeLegibility;
   overflow-x: hidden;
@@ -48,25 +48,28 @@ h2 {
 h3 {
   font-size: 22px !important;
   font-weight: bolder;
-  color: $white;
+  color: $gray-900;
 }
 
 h4 {
   font-size: 22px;
-  color: $white;
+  color: $gray-900;
 }
 
 p {
   font-size: 16px;
-  color: $white;
+  color: $gray-900;
 }
 
 .btn.btn-outline-primary {
   min-width: 215px;
   font-size: 18px;
-  color: $white;
+  color: $black;
   font-weight: bold;
   padding: 10px 0;
+}
+.btn.btn-outline-primary:hover {
+  color: white;
 }
 
 @media (max-width: 578px) {

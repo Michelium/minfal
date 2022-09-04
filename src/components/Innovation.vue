@@ -42,6 +42,8 @@ export default {
 
 <style scoped>
 section {
+    padding: 20px 0;
+    background-color: #e2e2e2;
     margin: 170px 0 100px 0;
 }
 @media (max-width: 578px) {

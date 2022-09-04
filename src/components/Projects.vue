@@ -1,9 +1,9 @@
 <template>
     <section id="projects">
-        <div class="row mx-auto bg-light py-5">
+        <div class="row mx-auto py-5">
             <div class="col-12 col-lg-10 offset-lg-1 col-xl-4 offset-xl-2">
                 <h2 class="text-primary mb-2 fw-bolder">Onze specialisatie</h2>
-                <h3 class="fw-bolder text-white">Bioscopen en Theathers</h3>
+                <h3 class="fw-bolder">Bioscopen en Theathers</h3>
                 <p class="mb-5 mt-3">
                     Minfal focust zich momenteel op het introduceren van
                     herbruikbare verpakkingen in de amusementssector. Minfal
@@ -14,7 +14,7 @@
                     het uw klantloyaliteit en speelt het slim in op actuele
                     trends.
                 </p>
-                <h3 class="text-white fw-bolder mt-4">
+                <h3 class="fw-bolder mt-4">
                     Benieuwd naar ons product?
                 </h3>
                 <p>
@@ -97,6 +97,7 @@ export default {
 
 <style scoped>
 section {
+    background-color: #e2e2e2;
     margin-bottom: 160px;
 }
 @media (max-width: 1200px) {

@@ -53,8 +53,6 @@ nav .navbar-brand img {
 }
 
 .scrolled {
-    background: rgb(0, 0, 0) !important;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 212, 255, 0) 100%) !important;
 }
 
 .row {
@@ -65,7 +63,7 @@ nav .navbar-brand img {
     font-size: 15px;
     padding: .9rem 20px;
     letter-spacing: 1px;
-    color: white;
+    color: var(--black);
     font-weight: 500;
     text-transform: uppercase;
     opacity: 1 !important;
