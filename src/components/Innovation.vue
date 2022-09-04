@@ -19,9 +19,7 @@
             </div>
             <div class="col-12 col-lg-10 offset-lg-1 col-xl-4 offset-xl-0 col-xxl-4 offset-xxl-1 order-1 order-xl-5 mb-4 mb-xl-0 mt-xl-5">
                 <h2 class="text-primary fw-bolder">Innovatie is onze kracht</h2>
-                <p class="mt-3 d-none d-md-inline-block">Wij verzorgen het totale plaatje, van idee tot realisatie. Wij helpen u in het reduceren van verpakkingsafval door het ontwikkelen van herbruikbare verpakkingen. Wij zorgen dat dure wegwerpverpakkingen tot de verleden tijd behoren. Zo
-                    heeft uw bedrijf geen last van het toekomstige verbod op wegwerpverpakkingen en wordt uw duurzaamheidsimago verhoogd.</p>
-                <p class="d-none d-md-inline-block">Ook is Minfal bezig met het creëren van een ondernemersplatform. Op dit platform zijn ondernemers die zich inzetten voor het reduceren van verpakkingsafval voor de consument zichtbaar.</p>
+                <p class="mt-3 d-none d-md-inline-block">Wij verzorgen het totale plaatje, van idee tot realisatie. Wij helpen u in het reduceren van verpakkingsafval door het ontwikkelen van herbruikbare verpakkingen. Wij zorgen dat dure wegwerpverpakkingen tot de verleden tijd behoren. Zo heeft uw bedrijf geen last van het aanstaande verbod op wegwerpverpakkingen (vanaf 2024) en wordt uw duurzaamheidsimago verhoogd.</p>
                 <a class="btn btn-outline-primary mt-md-3 d-none d-md-inline-block" @click="scrollTo('#process', -150)">ONZE WERKWIJZE</a>
             </div>
         </div>

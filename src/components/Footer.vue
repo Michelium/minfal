@@ -10,7 +10,7 @@
                                 <div class="row mt-2 mt-md-4">
                                     <div class="col-12 col-md-6">
                                         <p class="text-primary"><i class="bi bi-envelope icon"></i> <a href="mailto:info@minfal.nl" class="text-white text-decoration-none link">info@minfal.nl</a></p>
-                                        <p class="text-primary"><i class="bi bi-telephone icon"></i> <a href="tel:0702042640" class="text-white text-decoration-none link">070-2042640</a></p>
+                                        <a class="text-decoration-none"><i class="bi bi-telephone icon"></i> <a @click="scrollTo('#contact', -170)" class="text-white text-decoration-none link">Terugbelverzoek indienen</a></a>
                                         <p class="text-primary">
                                             <i class="bi bi-pin-map icon"></i>
                                             <a href="https://www.google.nl/maps/place/Turfschipper+62,+2292+JB+Wateringen" target="_blank" class="text-white text-decoration-none link">
@@ -70,6 +70,9 @@ h4 {
 
 a:hover {
     color: var(--primary)!important;
+}
+a.text-decoration-none:hover {
+    cursor: pointer;
 }
 
 img.devices {

@@ -25,11 +25,9 @@
             <div class="col-12 col-lg-10 offset-lg-1 col-xl-4 mt-5 mt-lg-0">
                 <h2 class="text-primary mb-4 fw-bolder">Missie en visie</h2>
                 <h3 class="fw-bolder">Onze missie</h3>
-                <p class="mb-5">Minfal heeft één groot doel: het reduceren van afval om zo de natuur en het milieu te beschermen. Minfal wil met het ontwerpen en aanbieden van luxe herbruikbare verpakkingen het gebruik van wegwerpverpakkingen
-                    inperken. Wij nemen het voortouw in het realiseren van circulaire verpakkingssystemen, waardoor er uiteindelijk 0% afval zal zijn op het gebied van verpakkingsmaterialen bij Minfal-klanten.</p>
+                <p class="mb-5">Minfal heeft één groot doel: het reduceren van verpakkingsafval. Minfal wil met het ontwerpen en aanbieden van luxe herbruikbare verpakkingen het gebruik van wegwerpverpakkingen inperken. Wij nemen het voortouw in het realiseren van circulaire verpakkingssystemen.</p>
                 <h3 class="fw-bolder mt-4">Onze visie</h3>
-                <p>Wij willen dat wegwerpverpakkingen tot de verleden tijd behoren, met het gebruik van circulaire verpakkingssystemen. Onze wens is een schonere toekomst waarin wij hoofdrolspeler zijn voor het compleet maken van de
-                    grondstofkringloop en afvalreductie.</p>
+                <p>Wij willen dat wegwerpverpakkingen tot de verleden tijd behoren, met het gebruik van circulaire verpakkingssystemen. Onze wens is een schonere toekomst waarin wij hoofdrolspeler zijn voor het compleet maken van de grondstofkringloop en afvalreductie.</p>
             </div>
         </div>
         <div class="d-none">
