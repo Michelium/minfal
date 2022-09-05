@@ -9,8 +9,8 @@
                     <img src="@/assets/images/linkedin-app.svg" alt="LinkedIn">
                 </a>
             </div>
-            <div class="d-none d-md-flex flex-column col-md-5">
-                <img class="right-image" src="@/assets/images/header.png" alt="">
+            <div class="d-flex flex-column text-center text-md-start col-md-5">
+                <img class="right-image d-none d-md-block" src="@/assets/images/header.png" alt="">
                 <h2 class="text-primary fw-bolder mt-3">19 september 2022</h2>
                 <h3 class="">Nieuwe website,</h3>
                 <h2 class="fw-bolder">Gericht op Bioscopen.</h2>
@@ -25,7 +25,6 @@ section {
 }
 @media (max-width: 767px) {
     h2 {
-        margin-top: 20%;
     }
 }
 
