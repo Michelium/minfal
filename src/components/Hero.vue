@@ -1,13 +1,19 @@
 <template>
     <section id="hero">
-        <div class="row mx-0">
-            <div class="col-12 col-md-5 offset-md-1 offset-lg-1 col-xl-5 offset-xl-2 text-section">
-                <h2 class="fw-bolder">Dé herbruikebare<br> Popcornbeker</h2>
-                <h2 class="text-primary fw-bolder mt-5">Special voor bioscopen</h2>
-                <a class="btn btn-outline-primary mt-5 mt-md-5 discover-button" @click="scrollTo('#innovation', -160)">ONTDEK</a>
+        <div class="row mx-0 align-items-center vh-100">
+            <div class="col-12 col-md-5 offset-md-1 offset-lg-1 col-xl-4 offset-xl-2 text-section text-center text-md-start">
+                <h2 class="fw-bolder">Omzetverhoging met<br> afvalreductie.</h2>
+                <!-- <h2 class="text-primary fw-bolder mt-5">Special voor bioscopen</h2> -->
+                <a class="btn btn-outline-primary discover-button mt-4" @click="scrollTo('#innovation', -160)">ONTDEK</a>
                 <a href="https://www.linkedin.com/company/minfal-b-v" target="_blank" type="button" class="linkedin">
                     <img src="@/assets/images/linkedin-app.svg" alt="LinkedIn">
                 </a>
+            </div>
+            <div class="d-none d-md-flex flex-column col-md-5">
+                <img class="right-image" src="@/assets/images/header.png" alt="">
+                <h2 class="text-primary fw-bolder mt-3">19 september 2022</h2>
+                <h3 class="">Nieuwe website,</h3>
+                <h2 class="fw-bolder">Gericht op Bioscopen.</h2>
             </div>
         </div>
     </section>
@@ -30,6 +36,7 @@ div {
 
 h2 {
     font-size: 34px!important;
+    color: #212529;;
 }
 h2 span {
     font-size: 42px!important;
@@ -38,6 +45,11 @@ h2 span {
 img {
     margin-top: 120px;
     width: 95%;
+}
+
+.right-image {
+    width: 80%;
+    margin-top: 0;
 }
 
 .discover-button {
@@ -77,9 +89,6 @@ img {
 }
 
 @media (min-width: 768px) and (max-width: 990px) {
-    .text-section {
-        margin-top: 150px;
-    }
 
     h2 {
         font-size: 34px!important;
@@ -87,10 +96,6 @@ img {
 }
 
 @media (max-width: 767px) {
-    .text-section {
-        margin-top: 170px;
-        text-align: center;
-    }
 
     img {
         position: relative;
@@ -101,9 +106,7 @@ img {
 }
 
 @media (min-width: 991px) {
-    .text-section {
-        margin-top: 250px;
-    }
+
 }
 </style>
 

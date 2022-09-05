@@ -6,8 +6,9 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="row navbar-row mt-1">
-                    <div class="col-12 col-xl-5 offset-xl-5">
+                    <div class="col-12 col-xl-10 offset-xl-1">
                         <div class="collapse navbar-collapse me-auto" id="navbarTogglerDemo01">
+                            <img class="" src="@/assets/images/logo_minfal.png" alt="">
                             <ul class="navbar-nav ms-auto">
                                 <li class="nav-item"><a @click="scrollTo('#hero')" class="nav-link">Home</a></li>
                                 <li class="nav-item d-none d-lg-block"><a @click="scrollTo('#innovation', -160)" class="nav-link">MINFAL</a></li>
@@ -53,6 +54,7 @@ nav .navbar-brand img {
 }
 
 .scrolled {
+    
 }
 
 .row {
