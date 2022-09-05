@@ -2,7 +2,8 @@
     <section id="hero">
         <div class="row mx-0 align-items-center vh-100">
             <div class="col-12 col-md-5 offset-md-1 offset-lg-1 col-xl-4 offset-xl-2 text-section text-center text-md-start">
-                <h2 class="fw-bolder">Omzetverhoging met<br> afvalreductie.</h2>
+                <img class="d-md-none" src="@/assets/images/logo_minfal.png" alt="">
+                <h2 class="fw-bolder mt-4 mt-md-0">Omzetverhoging met<br> afvalreductie.</h2>
                 <!-- <h2 class="text-primary fw-bolder mt-5">Special voor bioscopen</h2> -->
                 <a class="btn btn-outline-primary discover-button mt-4" @click="scrollTo('#innovation', -160)">ONTDEK</a>
                 <a href="https://www.linkedin.com/company/minfal-b-v" target="_blank" type="button" class="linkedin">
