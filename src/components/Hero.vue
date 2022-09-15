@@ -12,7 +12,7 @@
             </div>
             <div class="d-flex flex-column text-center text-md-start col-md-5">
                 <img class="right-image d-none d-md-block" src="@/assets/images/header.png" alt="">
-                <h2 class="text-primary fw-bolder mt-3">19 september 2022</h2>
+                <h2 class="text-primary fw-bolder mt-3">Binnenkort.</h2>
                 <h3 class="">Nieuwe website,</h3>
                 <h2 class="fw-bolder">Gericht op Bioscopen.</h2>
             </div>
