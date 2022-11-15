@@ -1,7 +1,7 @@
 <template>
     <section id="hero">
         <div class="row mx-0 align-items-center vh-100">
-            <div class="col-12 col-md-5 offset-md-1 offset-lg-1 col-xl-4 offset-xl-2 text-section text-center text-md-start">
+            <div class="col-12 col-lg-5 offset-lg-1 offset-lg-1 col-xl-4 offset-xl-2 text-section text-center text-lg-start">
                 <img class="d-md-none" src="@/assets/images/logo_minfal.png" alt="">
                 <h2 class="fw-bolder mt-4 mt-md-0">Omzetverhoging met<br> afvalreductie.</h2>
                 <!-- <h2 class="text-primary fw-bolder mt-5">Special voor bioscopen</h2> -->
@@ -10,8 +10,8 @@
                     <img src="@/assets/images/linkedin-app.svg" alt="LinkedIn">
                 </a>
             </div>
-            <div class="d-flex flex-column text-center text-md-start col-md-5">
-                <img class="right-image d-none d-md-block" src="@/assets/images/header.png" alt="">
+            <div class="d-flex flex-column text-center text-lg-start col-lg-5">
+                <img class="right-image" src="@/assets/images/header.png" alt="">
                 <h2 class="text-primary fw-bolder mt-3">Binnenkort.</h2>
                 <h3 class="">Nieuwe website,</h3>
                 <h2 class="fw-bolder">Gericht op Bioscopen.</h2>
@@ -48,7 +48,7 @@ img {
 }
 
 .right-image {
-    width: 80%;
+    width: 100%;
     margin-top: 0;
 }
 
